@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BranchesCVC" customModule="Hlthera" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="203"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="203"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 115716" translatesAutoresizingMaskIntoConstraints="NO" id="5BY-w6-vXs">
+                        <rect key="frame" x="5" y="5" width="304" height="193"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dubai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvx-S0-WzI">
+                        <rect key="frame" x="136" y="92.333333333333329" width="42" height="18.666666666666671"/>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                        <color key="textColor" red="0.52941176470588236" green="0.58039215686274503" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="5BY-w6-vXs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="JL9-BG-m2L"/>
+                <constraint firstAttribute="bottom" secondItem="5BY-w6-vXs" secondAttribute="bottom" constant="5" id="QsK-Wx-De5"/>
+                <constraint firstItem="5BY-w6-vXs" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="VuD-zq-MFH"/>
+                <constraint firstAttribute="trailing" secondItem="5BY-w6-vXs" secondAttribute="trailing" constant="5" id="WmM-7d-3gv"/>
+                <constraint firstItem="Pvx-S0-WzI" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="jhy-uw-03l"/>
+                <constraint firstItem="Pvx-S0-WzI" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="xZh-SQ-qd6"/>
+            </constraints>
+            <size key="customSize" width="314" height="203"/>
+            <connections>
+                <outlet property="name" destination="Pvx-S0-WzI" id="E3h-lx-v9c"/>
+            </connections>
+            <point key="canvasLocation" x="206.10687022900763" y="-34.154929577464792"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Group 115716" width="94" height="78"/>
+    </resources>
+</document>

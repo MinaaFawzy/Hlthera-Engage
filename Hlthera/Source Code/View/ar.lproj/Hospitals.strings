@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Dr. Peter Stone Online"; ObjectID = "0FB-fd-QxC"; */
+"0FB-fd-QxC.text" = "Dr. Peter Stone Online";
+
+/* Class = "UILabel"; text = "Building Number-5, Pusa Road, Delhi - 110005, Near Rajendra Place Metro Station"; ObjectID = "2VQ-fh-JmO"; */
+"2VQ-fh-JmO.text" = "مبنى رقم 5 ، طريق بوسا ، دلهي - 110005 ، بالقرب من محطة مترو راجندرا بليس";
+
+/* Class = "UILabel"; text = "Hospital"; ObjectID = "5eY-6d-Y3m"; */
+"5eY-6d-Y3m.text" = "مستشفى";
+
+/* Class = "UILabel"; text = "10:00 pm to 7 am"; ObjectID = "B0Y-PO-Fbf"; */
+"B0Y-PO-Fbf.text" = "10:00 pm to 7 am";
+
+/* Class = "UILabel"; text = "Rating & Reviews"; ObjectID = "ELC-BC-ZeZ"; */
+"ELC-BC-ZeZ.text" = "التقييم والمراجعات";
+
+/* Class = "UILabel"; text = "BLK Super Speciality Hospital"; ObjectID = "HCw-vs-xH6"; */
+"HCw-vs-xH6.text" = "مستشفى BLK Super التخصصي";
+
+/* Class = "UILabel"; text = "it officia commodo ex quis ex fugiat ullamco in enim labore. Cupidatat elit nisi adipisicing eu reprehenderit adipisicing excepteur. Do aliqua velit ipsum nostrud ad consectetur amet dolore exercitation aute nisi consectetur.."; ObjectID = "PtG-Sw-5kt"; */
+"PtG-Sw-5kt.text" = "it officia commodo ex quis ex fugiat ullamco in enim labore. Cupidatat elit nisi adipisicing eu reprehenderit adipisicing excepteur. Do aliqua velit ipsum nostrud ad consectetur amet dolore exercitation aute nisi consectetur..";
+
+/* Class = "UISearchBar"; placeholder = "Search doctors, speciality"; ObjectID = "QNL-Dw-N2k"; */
+"QNL-Dw-N2k.placeholder" = "بحث الأطباء والتخصص";
+
+/* Class = "UILabel"; text = "Grant333"; ObjectID = "QoM-fr-Pfd"; */
+"QoM-fr-Pfd.text" = "Grant333";
+
+/* Class = "UILabel"; text = "Cardiologists Specialist"; ObjectID = "Wb8-fo-4sd"; */
+"Wb8-fo-4sd.text" = "أخصائي أمراض القلب";
+
+/* Class = "UILabel"; text = "$200"; ObjectID = "d0Y-qc-cxe"; */
+"d0Y-qc-cxe.text" = "$200";
+
+/* Class = "UILabel"; text = "All Doctors"; ObjectID = "fWP-9e-zyJ"; */
+"fWP-9e-zyJ.text" = "كل الاطباء";
+
+/* Class = "UILabel"; text = "2 days ago"; ObjectID = "j1X-cc-xE1"; */
+"j1X-cc-xE1.text" = "2 منذ أيام";
+
+/* Class = "UILabel"; text = "4.5"; ObjectID = "jFk-wz-Yqu"; */
+"jFk-wz-Yqu.text" = "4.5";
+
+/* Class = "UILabel"; text = "Laboratory"; ObjectID = "kfr-WV-lZs"; */
+"kfr-WV-lZs.text" = "معمل";
+
+/* Class = "UILabel"; text = "14 years of exp."; ObjectID = "tcj-pN-rYC"; */
+"tcj-pN-rYC.text" = "14 عاما من الخبرة.";
+
+/* Class = "UILabel"; text = "Open Timing"; ObjectID = "uVm-uu-DP0"; */
+"uVm-uu-DP0.text" = "افتح التوقيت";
+
+/* Class = "UIButton"; normalTitle = "Book Now"; ObjectID = "zcK-5G-Occ"; */
+"zcK-5G-Occ.normalTitle" = "احجز الآن";

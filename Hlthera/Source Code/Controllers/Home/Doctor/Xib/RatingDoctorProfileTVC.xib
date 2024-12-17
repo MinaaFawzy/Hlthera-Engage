@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="641" id="KGk-i7-Jjw" customClass="RatingDoctorProfileTVC" customModule="Hlthera" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="650"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="650"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Wd-8A-FHP" userLabel="RatingView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="650"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="VXx-mP-yxe">
+                                <rect key="frame" x="15" y="0.0" width="290" height="631"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating &amp; Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vU9-we-Yh0">
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="RVW-kZ-SEX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="16"/>
+                                        <color key="textColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WXY-In-jCa">
+                                        <rect key="frame" x="0.0" y="43" width="290" height="400"/>
+                                        <subviews>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GD8-YR-LiD">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="400"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </tableView>
+                                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_data_image" translatesAutoresizingMaskIntoConstraints="NO" id="CmI-AP-dE9">
+                                                <rect key="frame" x="55" y="125" width="180" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="0M3-7F-sxm"/>
+                                                    <constraint firstAttribute="width" constant="180" id="VPA-AR-taa"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="CmI-AP-dE9" firstAttribute="centerY" secondItem="GD8-YR-LiD" secondAttribute="centerY" id="Gdz-yC-S0i"/>
+                                            <constraint firstItem="CmI-AP-dE9" firstAttribute="centerX" secondItem="GD8-YR-LiD" secondAttribute="centerX" id="JC0-Lh-ozu"/>
+                                            <constraint firstAttribute="trailing" secondItem="GD8-YR-LiD" secondAttribute="trailing" id="aLn-gh-Imu"/>
+                                            <constraint firstItem="GD8-YR-LiD" firstAttribute="top" secondItem="WXY-In-jCa" secondAttribute="top" id="ajT-8A-cDb"/>
+                                            <constraint firstAttribute="height" constant="400" id="cKH-tU-K4V"/>
+                                            <constraint firstItem="GD8-YR-LiD" firstAttribute="leading" secondItem="WXY-In-jCa" secondAttribute="leading" id="fvr-Q4-RDo"/>
+                                            <constraint firstAttribute="bottom" secondItem="GD8-YR-LiD" secondAttribute="bottom" id="tLV-qc-OJ1"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dF1-bs-iH3">
+                                        <rect key="frame" x="0.0" y="456" width="290" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBU-Tb-aBL">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="IrJ-51-dYH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
+                                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Report Problem">
+                                                    <color key="titleColor" name="4"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                        <real key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="reportProblemButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="CJe-7q-D18"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="send_Report" translatesAutoresizingMaskIntoConstraints="NO" id="ehX-wR-1J0">
+                                                <rect key="frame" x="246" y="13.666666666666686" width="24" height="23"/>
+                                                <color key="tintColor" name="4"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96078431610000004" green="0.96862745289999996" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="jBU-Tb-aBL" firstAttribute="top" secondItem="dF1-bs-iH3" secondAttribute="top" id="C2H-CX-kXz"/>
+                                            <constraint firstAttribute="bottom" secondItem="jBU-Tb-aBL" secondAttribute="bottom" id="I6d-Ih-rR4"/>
+                                            <constraint firstItem="ehX-wR-1J0" firstAttribute="centerY" secondItem="jBU-Tb-aBL" secondAttribute="centerY" id="Ld1-mm-cbx"/>
+                                            <constraint firstItem="jBU-Tb-aBL" firstAttribute="leading" secondItem="dF1-bs-iH3" secondAttribute="leading" id="cvW-Ny-PRy"/>
+                                            <constraint firstItem="ehX-wR-1J0" firstAttribute="trailing" secondItem="jBU-Tb-aBL" secondAttribute="trailing" constant="-20" id="f9F-io-q60"/>
+                                            <constraint firstAttribute="trailing" secondItem="jBU-Tb-aBL" secondAttribute="trailing" id="ilM-D3-YKm"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.0" height="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="3ZI-y0-xJM">
+                                        <rect key="frame" x="0.0" y="519" width="290" height="112"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg2-yz-bcP">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="50"/>
+                                                <color key="backgroundColor" name="5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="m9S-JF-edf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="18"/>
+                                                <state key="normal" title="Book Appointment">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                        <real key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="BookAppointmentButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zcG-Lt-Wcq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tes-Bb-I5Q">
+                                                <rect key="frame" x="0.0" y="62" width="290" height="50"/>
+                                                <color key="backgroundColor" red="0.96078431610000004" green="0.96862745289999996" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Noa-lz-ek1"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="18"/>
+                                                <state key="normal" title="Book for Others">
+                                                    <color key="titleColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                        <real key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="bookForOtherButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6cG-EX-h7H"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="VXx-mP-yxe" secondAttribute="trailing" constant="15" id="3ij-ww-jlW"/>
+                            <constraint firstItem="VXx-mP-yxe" firstAttribute="top" secondItem="7Wd-8A-FHP" secondAttribute="top" id="Ic4-5y-UXI"/>
+                            <constraint firstAttribute="bottom" secondItem="VXx-mP-yxe" secondAttribute="bottom" constant="19" id="iXV-vQ-Q9C"/>
+                            <constraint firstItem="VXx-mP-yxe" firstAttribute="leading" secondItem="7Wd-8A-FHP" secondAttribute="leading" constant="15" id="xHA-hC-nxL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="7Wd-8A-FHP" secondAttribute="bottom" id="Clz-hJ-Got"/>
+                    <constraint firstAttribute="trailing" secondItem="7Wd-8A-FHP" secondAttribute="trailing" id="Qt0-Md-I4Z"/>
+                    <constraint firstItem="7Wd-8A-FHP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="YNi-1W-IEi"/>
+                    <constraint firstItem="7Wd-8A-FHP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="lHd-TO-F1T"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bookAppointementButton" destination="bg2-yz-bcP" id="EBt-Pm-V2n"/>
+                <outlet property="bookForOthersButton" destination="Tes-Bb-I5Q" id="7nF-QS-cQ6"/>
+                <outlet property="noRatingsImageView" destination="CmI-AP-dE9" id="2uH-Y9-nwV"/>
+                <outlet property="ratingsTable" destination="GD8-YR-LiD" id="EPU-Ou-cwJ"/>
+            </connections>
+            <point key="canvasLocation" x="51.908396946564885" y="171.83098591549296"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="no_data_image" width="5400" height="5400"/>
+        <image name="send_Report" width="24" height="23"/>
+        <namedColor name="4">
+            <color red="0.52941176470588236" green="0.58039215686274515" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="5">
+            <color red="0.10196078431372549" green="0.25098039215686274" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

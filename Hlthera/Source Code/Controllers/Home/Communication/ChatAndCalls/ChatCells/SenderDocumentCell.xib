@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SenderDocumentCell" id="KGk-i7-Jjw" customClass="SenderDocumentCell" customModule="Consultation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:04 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGY-Ww-Eat">
+                        <rect key="frame" x="20" y="79.5" width="48" height="17"/>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                        <color key="textColor" red="0.1960784314" green="0.2784313725" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Acj-v9-z4C">
+                        <rect key="frame" x="70" y="19" width="12" height="6"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SwU-Qh-b8l">
+                        <rect key="frame" x="127" y="8" width="173" height="160"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Pj-n7-mlY">
+                                <rect key="frame" x="20" y="20" width="133" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="xQ7-ZV-1Vp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5Z-Ij-a3f">
+                                <rect key="frame" x="1" y="115" width="171" height="21"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                                <color key="textColor" red="0.1960784314" green="0.2784313725" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="173" id="4po-hJ-SpA"/>
+                            <constraint firstItem="6Pj-n7-mlY" firstAttribute="leading" secondItem="SwU-Qh-b8l" secondAttribute="leading" constant="20" id="5Nl-EO-wSE"/>
+                            <constraint firstItem="P5Z-Ij-a3f" firstAttribute="top" secondItem="6Pj-n7-mlY" secondAttribute="bottom" constant="5" id="ArZ-dU-uOd"/>
+                            <constraint firstAttribute="trailing" secondItem="P5Z-Ij-a3f" secondAttribute="trailing" constant="1" id="BPr-3C-zRN"/>
+                            <constraint firstAttribute="trailing" secondItem="6Pj-n7-mlY" secondAttribute="trailing" constant="20" id="QFE-U2-nBV"/>
+                            <constraint firstItem="P5Z-Ij-a3f" firstAttribute="leading" secondItem="SwU-Qh-b8l" secondAttribute="leading" constant="1" id="VQW-1t-pYl"/>
+                            <constraint firstAttribute="height" constant="160" id="m90-HR-vsX"/>
+                            <constraint firstItem="6Pj-n7-mlY" firstAttribute="top" secondItem="SwU-Qh-b8l" secondAttribute="top" constant="20" id="obD-pu-UNm"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAS-fe-Yj1">
+                        <rect key="frame" x="300" y="8" width="50" height="160"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="adq-mW-Aq0"/>
+                        </constraints>
+                        <state key="normal" image="delete-1"/>
+                        <connections>
+                            <action selector="tap_DeleteBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ulg-ej-Pcs"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WAS-fe-Yj1" firstAttribute="top" secondItem="SwU-Qh-b8l" secondAttribute="top" id="1jN-1r-Hu4"/>
+                    <constraint firstItem="WAS-fe-Yj1" firstAttribute="bottom" secondItem="SwU-Qh-b8l" secondAttribute="bottom" id="5VE-zs-S2G"/>
+                    <constraint firstAttribute="trailing" secondItem="SwU-Qh-b8l" secondAttribute="trailing" constant="20" id="Gas-vS-Xxk"/>
+                    <constraint firstItem="VGY-Ww-Eat" firstAttribute="centerY" secondItem="SwU-Qh-b8l" secondAttribute="centerY" id="JsM-oD-xDe"/>
+                    <constraint firstItem="SwU-Qh-b8l" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="P1x-9j-td8"/>
+                    <constraint firstItem="VGY-Ww-Eat" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="QSE-bI-EQN"/>
+                    <constraint firstItem="WAS-fe-Yj1" firstAttribute="leading" secondItem="SwU-Qh-b8l" secondAttribute="trailing" id="RMG-F2-nOE"/>
+                    <constraint firstAttribute="bottom" secondItem="SwU-Qh-b8l" secondAttribute="bottom" constant="8" id="W8T-xz-e7v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnDelete" destination="WAS-fe-Yj1" id="zmJ-ja-hs9"/>
+                <outlet property="imageDoc" destination="6Pj-n7-mlY" id="waj-LQ-5JD"/>
+                <outlet property="imgTrailingConstraint" destination="Gas-vS-Xxk" id="UIw-ts-H0P"/>
+                <outlet property="labelDocName" destination="P5Z-Ij-a3f" id="nzB-Mx-yHz"/>
+                <outlet property="labelTime" destination="VGY-Ww-Eat" id="YuN-Of-fav"/>
+                <outlet property="tickImgView" destination="Acj-v9-z4C" id="Ds5-mv-3Ah"/>
+                <outlet property="viewDocument" destination="SwU-Qh-b8l" id="A4H-yL-KVS"/>
+            </connections>
+            <point key="canvasLocation" x="113" y="80"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delete-1" width="13" height="16"/>
+    </resources>
+</document>

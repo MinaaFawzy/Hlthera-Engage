@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "1 Hour Left"; ObjectID = "0pS-9b-wGa"; */
+"0pS-9b-wGa.text" = "١ ساعه متبقيه";
+
+/* Class = "UILabel"; text = "Dr. Peter Stone"; ObjectID = "17s-Du-tkY"; */
+"17s-Du-tkY.text" = "Dr. Peter Stone";
+
+/* Class = "UILabel"; text = "17 Thu 2020, 10:00 AM, Duration : 15 mins"; ObjectID = "2td-t3-eEL"; */
+"2td-t3-eEL.text" = "17 الخميس 2020، 10:00 ص، المدة: 15 دقيقة";
+
+/* Class = "UILabel"; text = "Dr. Peter Stone"; ObjectID = "4Mr-GS-Nde"; */
+"4Mr-GS-Nde.text" = "Dr. Peter Stone";
+
+/* Class = "UILabel"; text = "Decline"; ObjectID = "4dX-Qg-PGu"; */
+"4dX-Qg-PGu.text" = "رفض";
+
+/* Class = "UILabel"; text = "Incoming Audio call"; ObjectID = "5g7-bZ-u2w"; */
+"5g7-bZ-u2w.text" = "مكالمة صوتية واردة";
+
+/* Class = "UILabel"; text = "17 Thu 2020, 10:00 AM, Duration : 15 mins"; ObjectID = "61v-w0-Boz"; */
+"61v-w0-Boz.text" = "17 الخميس 2020، 10:00 ص، المدة: 15 دقيقة";
+
+/* Class = "UILabel"; text = "Duration : 1 Hour"; ObjectID = "7TK-LY-cnG"; */
+"7TK-LY-cnG.text" = "المدة: 1 ساعة";
+
+/* Class = "UILabel"; text = "Started"; ObjectID = "7fW-Tq-fsC"; */
+"7fW-Tq-fsC.text" = "بدأت";
+
+/* Class = "UILabel"; text = "Started"; ObjectID = "94S-Vg-hxq"; */
+"94S-Vg-hxq.text" = "بدأت";
+
+/* Class = "UILabel"; text = "Extend Time"; ObjectID = "9kG-0f-dsC"; */
+"9kG-0f-dsC.text" = "وقت اضافي";
+
+/* Class = "UILabel"; text = "Video Call"; ObjectID = "9ps-i6-zC5"; */
+"9ps-i6-zC5.text" = "مكالمة فيديو";
+
+/* Class = "UILabel"; text = "Open..."; ObjectID = "CxP-HN-LQR"; */
+"CxP-HN-LQR.text" = "فتح...";
+
+/* Class = "UILabel"; text = "Extend The Time"; ObjectID = "DGg-lP-OIy"; */
+"DGg-lP-OIy.text" = "تمديد الوقت";
+
+/* Class = "UILabel"; text = "Appointment ID: WJIUFBGHYR74UI"; ObjectID = "DnI-bR-iCs"; */
+"DnI-bR-iCs.text" = "رقم الموعد: WJIUFBGHYR74UI";
+
+/* Class = "UILabel"; text = "Speaker"; ObjectID = "EtX-e3-O1d"; */
+"EtX-e3-O1d.text" = "مكبر الصوت";
+
+/* Class = "UILabel"; text = "17 Thu 2020, 10:00 AM, Duration : 15 mins"; ObjectID = "GKL-1D-w7U"; */
+"GKL-1D-w7U.text" = "17 الخميس 2020، 10:00 ص، المدة: 15 دقيقة";
+
+/* Class = "UILabel"; text = "1 Hour Left"; ObjectID = "HaY-n8-8KP"; */
+"HaY-n8-8KP.text" = "1 ساعة متبقيه";
+
+/* Class = "UILabel"; text = "Document"; ObjectID = "IGh-8g-e9f"; */
+"IGh-8g-e9f.text" = "وثيقة";
+
+/* Class = "UILabel"; text = "Mute"; ObjectID = "OWt-Gv-v0d"; */
+"OWt-Gv-v0d.text" = "صامت";
+
+/* Class = "UILabel"; text = "Completed"; ObjectID = "VJr-kL-Ns1"; */
+"VJr-kL-Ns1.text" = "مكتمل";
+
+/* Class = "UILabel"; text = "User Alexa is typing . . ."; ObjectID = "WE9-fi-SyV"; */
+"WE9-fi-SyV.text" = "المستخدم Alexa يكتب . . .";
+
+/* Class = "UILabel"; text = "Appointment ID: WJIUFBGHYR74UI"; ObjectID = "WjH-4V-syU"; */
+"WjH-4V-syU.text" = "رقم الموعد: WJIUFBGHYR74UI";
+
+/* Class = "UILabel"; text = "Incoming Audio call"; ObjectID = "X0M-6n-1hs"; */
+"X0M-6n-1hs.text" = "مكالمة صوتية واردة";
+
+/* Class = "UILabel"; text = "Appointment Id:"; ObjectID = "b3N-Hb-GXp"; */
+"b3N-Hb-GXp.text" = "رقم الموعد:";
+
+/* Class = "UILabel"; text = "Dr. Nina Moreno"; ObjectID = "cXT-eT-Qbc"; */
+"cXT-eT-Qbc.text" = "Dr. Nina Moreno";
+
+/* Class = "UILabel"; text = "1 Hour Left"; ObjectID = "dXF-0v-o5G"; */
+"dXF-0v-o5G.text" = "1 ساعة متبقيه";
+
+/* Class = "UIButton"; normalTitle = "Home"; ObjectID = "eHu-6h-RQK"; */
+"eHu-6h-RQK.normalTitle" = "الرئيسية";
+
+/* Class = "UILabel"; text = "Appointment ID: WJIUFBGHYR74UI"; ObjectID = "fAX-zz-YYE"; */
+"fAX-zz-YYE.text" = "رقم الموعد: WJIUFBGHYR74UI";
+
+/* Class = "UILabel"; text = "Dr. Peter Stone"; ObjectID = "fcM-xG-eTt"; */
+"fcM-xG-eTt.text" = "Dr. Peter Stone";
+
+/* Class = "UILabel"; text = "sad"; ObjectID = "gYe-3E-jlh"; */
+"gYe-3E-jlh.text" = "حزين";
+
+/* Class = "UILabel"; text = "Mute"; ObjectID = "iXZ-ny-o0n"; */
+"iXZ-ny-o0n.text" = "صامت";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "jGg-5s-yck"; */
+"jGg-5s-yck.text" = "00:00:00";
+
+/* Class = "UILabel"; text = "Gallery"; ObjectID = "jKd-bw-A8N"; */
+"jKd-bw-A8N.text" = "جاليري";
+
+/* Class = "UIButton"; normalTitle = "Extend The Time"; ObjectID = "kLM-u8-F62"; */
+"kLM-u8-F62.normalTitle" = "تمديد الوقت";
+
+/* Class = "UILabel"; text = "Camera"; ObjectID = "kkt-Qm-NSL"; */
+"kkt-Qm-NSL.text" = "كاميرا";
+
+/* Class = "UILabel"; text = "Date and time"; ObjectID = "kwG-XK-0ik"; */
+"kwG-XK-0ik.text" = "التاريخ و الوقت";
+
+/* Class = "UIButton"; normalTitle = "Book and Chat Again"; ObjectID = "lnH-tz-1CL"; */
+"lnH-tz-1CL.normalTitle" = "احجز وتحدث مرة أخرى";
+
+/* Class = "UILabel"; text = "Time: Over"; ObjectID = "q7t-1d-Glu"; */
+"q7t-1d-Glu.text" = "انتهى الوقت";
+
+/* Class = "UILabel"; text = "Accept"; ObjectID = "rOs-iu-1Og"; */
+"rOs-iu-1Og.text" = "قبول";
+
+/* Class = "UILabel"; text = "Flip"; ObjectID = "sj9-IN-YTu"; */
+"sj9-IN-YTu.text" = "اقلب";
+
+/* Class = "UILabel"; text = "Appointment ID: WJIUFBGHYR74UI"; ObjectID = "tFC-gn-SzG"; */
+"tFC-gn-SzG.text" = "رقم الموعد: WJIUFBGHYR74UI";
+
+/* Class = "UILabel"; text = "Appointment Id:"; ObjectID = "tlY-cl-FKu"; */
+"tlY-cl-FKu.text" = "رقم الموعد:";

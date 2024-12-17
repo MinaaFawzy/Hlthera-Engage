@@ -1,0 +1,228 @@
+
+/* Class = "UILabel"; text = "8 Yrs Experience"; ObjectID = "17x-x6-tfg"; */
+"17x-x6-tfg.text" = "8 سنوات خبرة";
+
+/* Class = "UILabel"; text = "Booking ID:"; ObjectID = "1FC-dk-fky"; */
+"1FC-dk-fky.text" = "رقم الحجز:";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "3gh-kI-Xx3"; */
+"3gh-kI-Xx3.normalTitle" = "نعم";
+
+/* Class = "UILabel"; text = "6201 N Broadway St, Chicago, (213km away)"; ObjectID = "3gi-Sd-vbv"; */
+"3gi-Sd-vbv.text" = "6201 N شارع برودواي ، شيكاغو (213 كم)";
+
+/* Class = "UIButton"; normalTitle = "Reschedule"; ObjectID = "45q-lJ-vTC"; */
+"45q-lJ-vTC.normalTitle" = "إعادة الجدولة";
+
+/* Class = "UILabel"; text = "Bad!"; ObjectID = "7Jj-To-eLr"; */
+"7Jj-To-eLr.text" = "سيء!";
+
+/* Class = "UILabel"; text = "On scheduled date & time, consulted Doctor will initiate the video call"; ObjectID = "7tg-aN-yGd"; */
+"7tg-aN-yGd.text" = "في التاريخ والوقت المحددين ، سيبدأ الطبيب الذي تمت استشارته مكالمة الفيديو";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "8DQ-TH-6ci"; */
+"8DQ-TH-6ci.normalTitle" = "إلغاء";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "9pw-I6-p9v"; */
+"9pw-I6-p9v.normalTitle" = "تاكيد";
+
+/* Class = "UILabel"; text = "Bad!"; ObjectID = "AHt-Mm-xME"; */
+"AHt-Mm-xME.text" = "سيء!";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "Aoa-dE-2fV"; */
+"Aoa-dE-2fV.normalTitle" = "نعم";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "BkO-Av-e88"; */
+"BkO-Av-e88.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "Very Bad!"; ObjectID = "C45-fC-Bkl"; */
+"C45-fC-Bkl.text" = "سيئ جدا!";
+
+/* Class = "UILabel"; text = "As you are aware last minute cancellations come at a high cost to both, your health and the practice. Let’s figure out what barriers you face so that we can create a system that works for the practice and patients alike."; ObjectID = "CAa-j8-3KQ"; */
+"CAa-j8-3KQ.text" = "As you are aware last minute cancellations come at a high cost to both, your health and the practice. Let’s figure out what barriers you face so that we can create a system that works for the practice and patients alike.";
+
+/* Class = "UILabel"; text = "Audio Call : "; ObjectID = "D3m-7E-tRp"; */
+"D3m-7E-tRp.text" = "مكالمة صوتية:";
+
+/* Class = "UILabel"; text = "34 reviews"; ObjectID = "Dek-gK-Lkm"; */
+"Dek-gK-Lkm.text" = "عدد التعليقات 34";
+
+/* Class = "UILabel"; text = "General Consultation"; ObjectID = "EUG-z6-M3k"; */
+"EUG-z6-M3k.text" = "استشارة عامة";
+
+/* Class = "UIButton"; normalTitle = "Give Rating & Review"; ObjectID = "EUQ-g6-Lef"; */
+"EUQ-g6-Lef.normalTitle" = "منح التقييم والمراجعة";
+
+/* Class = "UILabel"; text = "Wed, 13 September 2020 - 9:00 AM"; ObjectID = "FBf-zf-oX1"; */
+"FBf-zf-oX1.text" = "الأربعاء ، 13 سبتمبر 2020 - 9:00 ص";
+
+/* Class = "UILabel"; text = "Your details:\n\n"; ObjectID = "FlA-YY-sMr"; */
+"FlA-YY-sMr.text" = "تفاصيلك:\n\n";
+
+/* Class = "UILabel"; text = "Amazing!"; ObjectID = "FzC-lf-Gdj"; */
+"FzC-lf-Gdj.text" = "مدهش!";
+
+/* Class = "UIButton"; normalTitle = "Rebooking"; ObjectID = "HNc-gv-CL1"; */
+"HNc-gv-CL1.normalTitle" = "إعادة الحجز";
+
+/* Class = "UILabel"; text = "Ok Ok!"; ObjectID = "J5e-GG-OFw"; */
+"J5e-GG-OFw.text" = "حسنا حسنا!";
+
+/* Class = "UIButton"; normalTitle = "Username"; ObjectID = "JBI-vX-yWs"; */
+"JBI-vX-yWs.normalTitle" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "Survey"; ObjectID = "JvM-lZ-h2f"; */
+"JvM-lZ-h2f.text" = "استطلاع";
+
+/* Class = "UIButton"; normalTitle = "Give Rating & Review"; ObjectID = "MAf-MA-Tg9"; */
+"MAf-MA-Tg9.normalTitle" = "منح التقييم والمراجعة";
+
+/* Class = "UILabel"; text = "TItle"; ObjectID = "MQ7-RN-0Uw"; */
+"MQ7-RN-0Uw.text" = "عنوان";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "Mc5-Wt-SQb"; */
+"Mc5-Wt-SQb.normalTitle" = "لا";
+
+/* Class = "UILabel"; text = "Wed, 13 September 2020 - 9:00 AM"; ObjectID = "Omh-th-iaK"; */
+"Omh-th-iaK.text" = "الأربعاء ، 13 سبتمبر 2020 - 9:00 ص";
+
+/* Class = "UILabel"; text = "TItle"; ObjectID = "Ory-6j-dSR"; */
+"Ory-6j-dSR.text" = "عنوان";
+
+/* Class = "UILabel"; text = "Booking Details\n\n"; ObjectID = "QjB-2p-YNS"; */
+"QjB-2p-YNS.text" = "تفاصيل الحجز\n\n";
+
+/* Class = "UILabel"; text = "Fill Details"; ObjectID = "Sun-Cj-jW4"; */
+"Sun-Cj-jW4.text" = "تفاصيل ";
+
+/* Class = "UIButton"; normalTitle = "Check In"; ObjectID = "T03-66-nHF"; */
+"T03-66-nHF.normalTitle" = "تسجيل الوصول";
+
+/* Class = "UIButton"; normalTitle = "Join by Video"; ObjectID = "Ti8-eZ-7AC"; */
+"Ti8-eZ-7AC.normalTitle" = "الانضمام عن طريق الفيديو";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "U3C-C9-83O"; */
+"U3C-C9-83O.normalTitle" = "تأكيد";
+
+/* Class = "UILabel"; text = "Very Bad!"; ObjectID = "U3Y-QI-EUF"; */
+"U3Y-QI-EUF.text" = "سيئ جدا!";
+
+/* Class = "UILabel"; text = "Wed, 13 September 2020 - 9:00 AM"; ObjectID = "UuN-fw-8ev"; */
+"UuN-fw-8ev.text" = "الأربعاء ، 13 سبتمبر 2020 - 9:00 ص";
+
+/* Class = "UILabel"; text = "Booked on: 12/09/2020 12:00pm"; ObjectID = "Vm2-EX-CEf"; */
+"Vm2-EX-CEf.text" = "تم الحجز بتاريخ: 12/09/2020 12:00 ظهراً";
+
+/* Class = "UILabel"; text = "We'd love to hear how it went with Hlthera?"; ObjectID = "WDf-nF-VTy"; */
+"WDf-nF-VTy.text" = "نحب أن نسمع كيف سارت الأمور مع هلثيرا؟";
+
+/* Class = "UILabel"; text = "AFUD7989"; ObjectID = "Wcu-8S-suq"; */
+"Wcu-8S-suq.text" = "AFUD7989";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Y2A-Pt-uxl"; */
+"Y2A-Pt-uxl.normalTitle" = "التالي";
+
+/* Class = "UILabel"; text = "Your Upcoming Clinic Appointment with Dr. Peter Stone"; ObjectID = "YlT-wc-h2q"; */
+"YlT-wc-h2q.text" = "موعدك القادم بالعيادة مع دكتور بيتر ستون";
+
+/* Class = "UILabel"; text = "100$"; ObjectID = "aNP-lo-EwQ"; */
+"aNP-lo-EwQ.text" = "100$";
+
+/* Class = "UILabel"; text = "4.5"; ObjectID = "c89-H2-VwG"; */
+"c89-H2-VwG.text" = "4.5";
+
+/* Class = "UILabel"; text = "8 Yrs Experience"; ObjectID = "cai-ys-Tx5"; */
+"cai-ys-Tx5.text" = "8 سنوات خبرة";
+
+/* Class = "UILabel"; text = "6201 N Broadway St, Chicago, (213km away)"; ObjectID = "eaI-Ud-qQG"; */
+"eaI-Ud-qQG.text" = "6201 N شارع برودواي ، شيكاغو (213 كم)";
+
+/* Class = "UILabel"; text = "Give rating and Review"; ObjectID = "f6r-Qh-Qbh"; */
+"f6r-Qh-Qbh.text" = "إعطاء التقييم والمراجعة";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "fNy-Ys-COy"; */
+"fNy-Ys-COy.normalTitle" = "لا";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "gAK-qi-rAZ"; */
+"gAK-qi-rAZ.normalTitle" = "ارسال";
+
+/* Class = "UIButton"; normalTitle = "Rebooking"; ObjectID = "gOL-Ml-F2i"; */
+"gOL-Ml-F2i.normalTitle" = "إعادة الحجز";
+
+/* Class = "UILabel"; text = "Good!"; ObjectID = "gaM-R6-OHv"; */
+"gaM-R6-OHv.text" = "جيد!";
+
+/* Class = "UILabel"; text = "Appointment Cancellation!"; ObjectID = "hgm-uE-ttM"; */
+"hgm-uE-ttM.text" = "إلغاء الموعد!";
+
+/* Class = "UILabel"; text = "Amazing!"; ObjectID = "iZh-Fj-S2C"; */
+"iZh-Fj-S2C.text" = "مدهش!";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "jbP-Zj-E24"; */
+"jbP-Zj-E24.text" = "موقع";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "kkc-lF-EV8"; */
+"kkc-lF-EV8.normalTitle" = "ارسال";
+
+/* Class = "UILabel"; text = "TItle"; ObjectID = "l2R-rc-wSz"; */
+"l2R-rc-wSz.text" = "عنوان";
+
+/* Class = "UILabel"; text = "Booking ID:"; ObjectID = "l6V-Np-4sa"; */
+"l6V-Np-4sa.text" = "رقم الحجز:";
+
+/* Class = "UILabel"; text = "AFUD7989"; ObjectID = "l98-zR-8Bp"; */
+"l98-zR-8Bp.text" = "AFUD7989";
+
+/* Class = "UILabel"; text = "Available today"; ObjectID = "lTU-WQ-hhO"; */
+"lTU-WQ-hhO.text" = "المتاحة اليوم";
+
+/* Class = "UILabel"; text = "Booking Details\n\n"; ObjectID = "lva-cz-ZdD"; */
+"lva-cz-ZdD.text" = "تفاصيل الحجز\n\n";
+
+/* Class = "UILabel"; text = "Wed, 13 September 2020 - 9:00 AM"; ObjectID = "nEn-NW-2nL"; */
+"nEn-NW-2nL.text" = "الأربعاء ، 13 سبتمبر 2020 - 9:00 ص";
+
+/* Class = "UIButton"; normalTitle = "Appointment"; ObjectID = "njg-EI-rLt"; */
+"njg-EI-rLt.normalTitle" = "ميعاد";
+
+/* Class = "UILabel"; text = "Booked on: 12/09/2020 12:00pm"; ObjectID = "p1R-pS-jG9"; */
+"p1R-pS-jG9.text" = "تم الحجز بتاريخ: 12/09/2020 12:00 ظهراً";
+
+/* Class = "UILabel"; text = "Wrong phone number"; ObjectID = "pjN-gj-Ew4"; */
+"pjN-gj-Ew4.text" = "رقم هاتف خاطئ";
+
+/* Class = "UIButton"; normalTitle = "Anonymous"; ObjectID = "qKy-iN-x3o"; */
+"qKy-iN-x3o.normalTitle" = "مجهول";
+
+/* Class = "UILabel"; text = "Alert"; ObjectID = "qLA-5U-ND5"; */
+"qLA-5U-ND5.text" = "تحذير";
+
+/* Class = "UILabel"; text = "General Consultation"; ObjectID = "rmz-hU-yxd"; */
+"rmz-hU-yxd.text" = "استشارة عامة";
+
+/* Class = "UILabel"; text = "Are you sure you want to reschedule this call appointment?"; ObjectID = "rqP-le-ASK"; */
+"rqP-le-ASK.text" = "هل أنت متأكد أنك تريد إعادة تحديد موعد المكالمة هذا؟";
+
+/* Class = "UILabel"; text = "Good!"; ObjectID = "s5e-cc-0db"; */
+"s5e-cc-0db.text" = "جيد!";
+
+/* Class = "UILabel"; text = "Ok Ok!"; ObjectID = "tjR-Iw-cMT"; */
+"tjR-Iw-cMT.text" = "حسنا حسنا!";
+
+/* Class = "UILabel"; text = "Please choose the reason for appointment cancellation?"; ObjectID = "uVD-ax-wbC"; */
+"uVD-ax-wbC.text" = "الرجاء اختيار سبب إلغاء الموعد؟";
+
+/* Class = "UILabel"; text = "Your Upcoming Clinic Appointment with Dr. Peter Stone"; ObjectID = "v30-5d-ADq"; */
+"v30-5d-ADq.text" = "موعدك القادم بالعيادة مع دكتور بيتر ستون";
+
+/* Class = "UIButton"; normalTitle = "Appointment"; ObjectID = "wB7-hP-l4d"; */
+"wB7-hP-l4d.normalTitle" = "ميعاد";
+
+/* Class = "UILabel"; text = "TItle"; ObjectID = "wqA-oA-odq"; */
+"wqA-oA-odq.text" = "عنوان";
+
+/* Class = "UIButton"; normalTitle = "Reschedule"; ObjectID = "wqN-i1-XEc"; */
+"wqN-i1-XEc.normalTitle" = "إعادة الجدولة";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "x1Z-eY-9m2"; */
+"x1Z-eY-9m2.normalTitle" = "إلغاء";

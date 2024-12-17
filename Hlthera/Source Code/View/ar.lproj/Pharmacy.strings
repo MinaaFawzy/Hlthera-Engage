@@ -1,0 +1,246 @@
+
+/* Class = "UILabel"; text = "$200"; ObjectID = "16m-UH-R8a"; */
+"16m-UH-R8a.text" = "$200";
+
+/* Class = "UILabel"; text = "Cart"; ObjectID = "2Qn-2P-xJ1"; */
+"2Qn-2P-xJ1.text" = "عربة التسوق";
+
+/* Class = "UILabel"; text = "Brief description about the product"; ObjectID = "3Qy-Hj-RK0"; */
+"3Qy-Hj-RK0.text" = "وصف موجز عن المنتج";
+
+/* Class = "UIButton"; normalTitle = "Upload E- Prescription"; ObjectID = "4Vy-64-4za"; */
+"4Vy-64-4za.normalTitle" = "تحميل الوصفة الإلكترونية";
+
+/* Class = "UILabel"; text = "My Orders"; ObjectID = "4so-uS-YEr"; */
+"4so-uS-YEr.text" = "طلباتي";
+
+/* Class = "UILabel"; text = "Confirm your Order"; ObjectID = "5n4-Mt-vrx"; */
+"5n4-Mt-vrx.text" = "قم بتأكيد طلبك";
+
+/* Class = "UIButton"; normalTitle = "Rate this product"; ObjectID = "8xr-x9-cOU"; */
+"8xr-x9-cOU.normalTitle" = "قيم هذا المنتج";
+
+/* Class = "UILabel"; text = "E- Prescription report"; ObjectID = "Anv-aw-ucP"; */
+"Anv-aw-ucP.text" = "تقرير الوصفة";
+
+/* Class = "UILabel"; text = "Fetching Booking ID"; ObjectID = "Bum-Pq-NfU"; */
+"Bum-Pq-NfU.text" = "إحضار رقم الحجز";
+
+/* Class = "UILabel"; text = "Product Category"; ObjectID = "CKb-zv-OXb"; */
+"CKb-zv-OXb.text" = "فئة المنتج";
+
+/* Class = "UIButton"; normalTitle = "Ongoing"; ObjectID = "DDS-Jx-y95"; */
+"DDS-Jx-y95.normalTitle" = "جاري التنفيذ";
+
+/* Class = "UILabel"; text = "$200"; ObjectID = "Dwt-ff-Oxz"; */
+"Dwt-ff-Oxz.text" = "$200";
+
+/* Class = "UIButton"; normalTitle = "Continue Ordering"; ObjectID = "EpD-3H-X7l"; */
+"EpD-3H-X7l.normalTitle" = "استمر في الطلب";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "Ewm-0f-shb"; */
+"Ewm-0f-shb.text" = "1";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."; ObjectID = "FYc-81-kcx"; */
+"FYc-81-kcx.text" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+
+/* Class = "UIButton"; normalTitle = "Cancelled"; ObjectID = "G4d-bz-sZF"; */
+"G4d-bz-sZF.normalTitle" = "ألغيت";
+
+/* Class = "UIButton"; normalTitle = "Add to Cart"; ObjectID = "GAy-Wb-yH1"; */
+"GAy-Wb-yH1.normalTitle" = "أضف إلى السلة";
+
+/* Class = "UILabel"; text = "17 Thu 2020, 10:00 AM"; ObjectID = "GRX-IY-fz1"; */
+"GRX-IY-fz1.text" = "17 Thu 2020, 10:00 AM";
+
+/* Class = "UILabel"; text = "Fetching Time"; ObjectID = "HuM-54-DJr"; */
+"HuM-54-DJr.text" = "الوقت";
+
+/* Class = "UIButton"; normalTitle = "Price High to Low"; ObjectID = "IEL-L0-Rbl"; */
+"IEL-L0-Rbl.normalTitle" = "السعر الاعلى الى الادنى";
+
+/* Class = "UIButton"; normalTitle = "Avail this medicine with a consultation"; ObjectID = "JQA-Xp-2ky"; */
+"JQA-Xp-2ky.normalTitle" = "استفد من هذا الدواء بالتشاور";
+
+/* Class = "UILabel"; text = "Order ID:"; ObjectID = "KDA-BT-mVW"; */
+"KDA-BT-mVW.text" = "رقم الطلب:";
+
+/* Class = "UIButton"; normalTitle = "Buy More"; ObjectID = "LB5-5S-Rbv"; */
+"LB5-5S-Rbv.normalTitle" = "اشتري اكثر";
+
+/* Class = "UIButton"; normalTitle = "Pending"; ObjectID = "LLa-Pf-xER"; */
+"LLa-Pf-xER.normalTitle" = "قيد الانتظار";
+
+/* Class = "UILabel"; text = "Batra Hospital & Pathlab, Address: Dubai"; ObjectID = "MaY-BO-ByM"; */
+"MaY-BO-ByM.text" = "مستشفى البترا وباثلاب ، العنوان: دبي";
+
+/* Class = "UILabel"; text = "Pharmacy Name"; ObjectID = "May-zO-zvj"; */
+"May-zO-zvj.text" = "اسم الصيدلية";
+
+/* Class = "UILabel"; text = "Medicines you ordered can only be given along with the valid prescription. Please upload prescription"; ObjectID = "MdW-ug-rWp"; */
+"MdW-ug-rWp.text" = "لا يمكن إعطاء الأدوية التي طلبتها إلا مع الوصفة الطبية الصالحة. يرجى تحميل الوصفة الطبية";
+
+/* Class = "UILabel"; text = "Order Received"; ObjectID = "OWM-aO-aFS"; */
+"OWM-aO-aFS.text" = "طلب وارد";
+
+/* Class = "UILabel"; text = "17 Thu 2020, 10:00 AM"; ObjectID = "PCu-q8-mV3"; */
+"PCu-q8-mV3.text" = "17 Thu 2020, 10:00 AM";
+
+/* Class = "UILabel"; text = "No. of items 3"; ObjectID = "Qx5-wE-elZ"; */
+"Qx5-wE-elZ.text" = "عدد العناصر 3";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "RDv-IJ-ACJ"; */
+"RDv-IJ-ACJ.text" = "حالة";
+
+/* Class = "UIButton"; normalTitle = "Checkout"; ObjectID = "RJ2-Y9-ywk"; */
+"RJ2-Y9-ywk.normalTitle" = "الدفع";
+
+/* Class = "UILabel"; text = "Payment Details:"; ObjectID = "Rza-E0-Ff9"; */
+"Rza-E0-Ff9.text" = "بيانات الدفع:";
+
+/* Class = "UILabel"; text = "Product Details"; ObjectID = "S2V-Aa-vas"; */
+"S2V-Aa-vas.text" = "تفاصيل المنتج";
+
+/* Class = "UILabel"; text = "We are sorry! The medicine you are trying to purchase requires an E-prescription."; ObjectID = "TGe-u0-2fP"; */
+"TGe-u0-2fP.text" = "نحن اسفون! الدواء الذي تحاول شراءه يتطلب وصفة طبية إلكترونية.";
+
+/* Class = "UILabel"; text = "Camera"; ObjectID = "VHN-Uu-RWh"; */
+"VHN-Uu-RWh.text" = "كاميرا";
+
+/* Class = "UILabel"; text = "Debit card"; ObjectID = "WPa-5l-sDY"; */
+"WPa-5l-sDY.text" = "بطاقة ائتمان";
+
+/* Class = "UILabel"; text = "Price 300$"; ObjectID = "X3X-zs-Sck"; */
+"X3X-zs-Sck.text" = "سعر 300$";
+
+/* Class = "UIButton"; normalTitle = "Cancel Order"; ObjectID = "XEx-Z4-cTc"; */
+"XEx-Z4-cTc.normalTitle" = "الغاء الطلب";
+
+/* Class = "UILabel"; text = "$7000"; ObjectID = "Y0K-dd-avv"; */
+"Y0K-dd-avv.text" = "$7000";
+
+/* Class = "UILabel"; text = "Total Amount to be paid"; ObjectID = "Y2o-xo-xSC"; */
+"Y2o-xo-xSC.text" = "المبلغ الإجمالي الواجب دفعه";
+
+/* Class = "UILabel"; text = "Fetching Address.."; ObjectID = "YUZ-Py-QOR"; */
+"YUZ-Py-QOR.text" = "إحضار العنوان..";
+
+/* Class = "UILabel"; text = "03"; ObjectID = "bJL-Do-hec"; */
+"bJL-Do-hec.text" = "03";
+
+/* Class = "UILabel"; text = "Gallery"; ObjectID = "c2t-Xo-9Ou"; */
+"c2t-Xo-9Ou.text" = "جاليري";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "cNg-j9-R7o"; */
+"cNg-j9-R7o.text" = "الوصف";
+
+/* Class = "UIButton"; normalTitle = "Cancel Order"; ObjectID = "caD-AC-OxT"; */
+"caD-AC-OxT.normalTitle" = "الغاء الطلب";
+
+/* Class = "UILabel"; text = "Reviews & Rating"; ObjectID = "dNa-Da-2du"; */
+"dNa-Da-2du.text" = "التعليقات والتقييم";
+
+/* Class = "UILabel"; text = "Accu-Chek Test Strips 50's"; ObjectID = "dxy-Qt-udV"; */
+"dxy-Qt-udV.text" = "Accu-Chek Test Strips 50's";
+
+/* Class = "UILabel"; text = "AFUD7989"; ObjectID = "f1Y-ET-0Lk"; */
+"f1Y-ET-0Lk.text" = "AFUD7989";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "f1g-Ls-Mco"; */
+"f1g-Ls-Mco.normalTitle" = "واصل";
+
+/* Class = "UIButton"; normalTitle = "Completed"; ObjectID = "fFw-hv-Kui"; */
+"fFw-hv-Kui.normalTitle" = "مكتمل";
+
+/* Class = "UIButton"; normalTitle = "All"; ObjectID = "fX2-Nj-Ung"; */
+"fX2-Nj-Ung.normalTitle" = "الكل";
+
+/* Class = "UILabel"; text = "$7000"; ObjectID = "fcH-XO-YvA"; */
+"fcH-XO-YvA.text" = "$7000";
+
+/* Class = "UIButton"; normalTitle = "Newest First"; ObjectID = "gmG-I7-Cro"; */
+"gmG-I7-Cro.normalTitle" = "الأحدث أولاً";
+
+/* Class = "UILabel"; text = "Upload prescription"; ObjectID = "h3Q-74-3o1"; */
+"h3Q-74-3o1.text" = "تحميل الوصفة الطبية";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "hbk-Rr-tow"; */
+"hbk-Rr-tow.text" = "حالة";
+
+/* Class = "UILabel"; text = "Document"; ObjectID = "hz1-HX-hOk"; */
+"hz1-HX-hOk.text" = "وثيقة";
+
+/* Class = "UISearchBar"; placeholder = "Search Products"; ObjectID = "i9j-OS-Tgf"; */
+"i9j-OS-Tgf.placeholder" = "البحث عن المنتجات";
+
+/* Class = "UILabel"; text = "1Mile Pulse Oximeter - Blue"; ObjectID = "kL1-X1-N95"; */
+"kL1-X1-N95.text" = "1Mile Pulse Oximeter - Blue";
+
+/* Class = "UILabel"; text = "$7000"; ObjectID = "kQP-63-oYM"; */
+"kQP-63-oYM.text" = "$7000";
+
+/* Class = "UILabel"; text = "03"; ObjectID = "khj-k0-iuD"; */
+"khj-k0-iuD.text" = "03";
+
+/* Class = "UILabel"; text = "$200"; ObjectID = "n8Y-f4-pYD"; */
+"n8Y-f4-pYD.text" = "$200";
+
+/* Class = "UILabel"; text = "No. of items 3"; ObjectID = "nU4-ha-u2f"; */
+"nU4-ha-u2f.text" = "No. of items 3";
+
+/* Class = "UILabel"; text = "17 Thu 2020, 10:00 AM"; ObjectID = "o5D-LS-VC9"; */
+"o5D-LS-VC9.text" = "17 Thu 2020, 10:00 AM";
+
+/* Class = "UILabel"; text = "Home delivery"; ObjectID = "oFZ-L2-CBx"; */
+"oFZ-L2-CBx.text" = "توصيل منزلي";
+
+/* Class = "UIButton"; normalTitle = "Price Low to High"; ObjectID = "qAG-2j-g6W"; */
+"qAG-2j-g6W.normalTitle" = "السعر من الارخص للاعلى";
+
+/* Class = "UILabel"; text = "Verified Products"; ObjectID = "qIV-DB-7RL"; */
+"qIV-DB-7RL.text" = "المنتجات التي تم التحقق منها";
+
+/* Class = "UILabel"; text = "Shipping Address"; ObjectID = "qzq-w9-Kbt"; */
+"qzq-w9-Kbt.text" = "عنوان الشحن";
+
+/* Class = "UIButton"; normalTitle = "Checkout"; ObjectID = "rKy-0k-XjP"; */
+"rKy-0k-XjP.normalTitle" = "الدفع";
+
+/* Class = "UILabel"; text = "Brief Description: it officia commodo ex quis ex fugiat ullamco in enim labore. Cupidatat elit nisi adipisicing eu reprehenderit adipisicing excepteur."; ObjectID = "rLW-3r-LH6"; */
+"rLW-3r-LH6.text" = "Brief Description: it officia commodo ex quis ex fugiat ullamco in enim labore. Cupidatat elit nisi adipisicing eu reprehenderit adipisicing excepteur.";
+
+/* Class = "UILabel"; text = "Order Details"; ObjectID = "sn6-UL-9DA"; */
+"sn6-UL-9DA.text" = "تفاصيل الطلب";
+
+/* Class = "UILabel"; text = "Estimating Delivery Date"; ObjectID = "tXW-zj-BhL"; */
+"tXW-zj-BhL.text" = "تقدير تاريخ التسليم";
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "uff-Mw-rKs"; */
+"uff-Mw-rKs.text" = "اسم المنتج";
+
+/* Class = "UILabel"; text = "1Mile Pulse Oximeter - Blue"; ObjectID = "ujy-4C-FcG"; */
+"ujy-4C-FcG.text" = "1Mile Pulse Oximeter - Blue";
+
+/* Class = "UILabel"; text = "Transaction ID:"; ObjectID = "wiL-K3-OWs"; */
+"wiL-K3-OWs.text" = "رقم المعاملة:";
+
+/* Class = "UILabel"; text = "Fetching Transaction ID"; ObjectID = "xL3-Xy-vah"; */
+"xL3-Xy-vah.text" = "إحضار رقم المعاملة";
+
+/* Class = "UILabel"; text = "Price: $200"; ObjectID = "y6Z-kk-K8n"; */
+"y6Z-kk-K8n.text" = "Price: $200";
+
+/* Class = "UILabel"; text = "E- Prescription repot"; ObjectID = "yRM-7Z-bwf"; */
+"yRM-7Z-bwf.text" = "وصفة طبية";
+
+/* Class = "UILabel"; text = "Booking ID:"; ObjectID = "yyg-2Y-fOD"; */
+"yyg-2Y-fOD.text" = "رقم الحجز:";
+
+/* Class = "UILabel"; text = "Price 300$"; ObjectID = "z9Y-RV-Tdh"; */
+"z9Y-RV-Tdh.text" = "Price 300$";
+
+/* Class = "UILabel"; text = "CALCULATING ITEMS"; ObjectID = "zEO-oQ-Rm1"; */
+"zEO-oQ-Rm1.text" = "حساب العناصر";
+
+/* Class = "UILabel"; text = "Reviews & Rating"; ObjectID = "zby-Bu-PNB"; */
+"zby-Bu-PNB.text" = "التعليقات والتقييم";

@@ -1,0 +1,542 @@
+/* 
+  Localizable.strings
+  Hlthera
+
+  Created by Bishoy Badea [Pharma] on 17/03/2023.
+  Copyright © 2023 Fluper. All rights reserved.
+*/
+
+// MARK: - Home
+"Stress and Anxiety" = "التوتر والقلق";
+"Stomach" = "آلام المعدة";
+"Sore Throat" = "التهاب الحلق";
+"Cough" = "السعال";
+"Headache" = "الصداع";
+"Fever" = "الحمى";
+"COVID-19 Testing" = "اختبار COVID-19";
+"COVID-19 Vaccination" = "تطعيم COVID-19";
+"Default Location" = "الموقع الافتراضي";
+"Pull to refresh" = "اسحب للتحديث";
+"Selected Location" = "الموقع المحدد";
+"Drag map to change location" = "اسحب الخريطة لتغيير الموقع";
+"List of Hospitals" = "قائمة المستشفيات";
+"Select Location" = "حدد الموقع";
+"Selected Location" = "الموقع المحدد";
+"Nearby Healers" = "الاطباء القريبين";
+"Healers" = "الاطباء";
+"Healer" = "طبيب";
+" Healers" = "الاطباء";
+" Healer" = " طبيب" ;
+"Search, for doctors" = "ابحث عن دكتور";
+"Overview" = "ملخص";
+"Book video or in-clinic appointment" = "حجز فيديو أو موعد في العيادة";
+"Discover Healers" = "اكتشف الأطباء";
+"Online Healers" = "الاطباء المتصلين";
+"Consult with online doctor" = "استشر طبيب على الإنترنت";
+"Start Consulting" = "بدء الاستشارات";
+"Find the top Healers near you" = "البحث عن طبيب بالقرب منك؟";
+"Find doctor near you?" = "البحث عن طبيب بالقرب منك؟";
+"Book Now" = "أحجز الأن";
+"Language" = "اللغة";
+"Address not found" = "العنوان غير موجود";
+"Starting from" = "بدءًا من";
+"Not Available Today" = "غير متوفر اليوم";
+"Available Today" = "متاح اليوم";
+" Year" = "سنة";
+" years of exp." = "سنه من الخبرة";
+"Checking in" = "تأكيد الحجز";
+"Choose your option*" = "اختر خيارك*";
+", I'm coming!" = "، أنا قادم!";
+"Type your message here ... *" = "اكتب رسالتك هنا ... *";
+"In-Progress" = "في تَقَدم";
+"Add a Review" = "اضافة تقييم";
+"Health Center" = "مركز الصحة";
+"Healer" = "طبيب";
+"Share your views as?" = "شاركونا آرائكم كما؟";
+"Myself" = "انا";
+"Rate your experience" = "قيم تجربتك";
+"Rate and review the healer you have recently visited" = "قم بتقييم ومراجعة المعالج الذي قمت بزيارته مؤخرًا";
+"Amazing!" = "مدهش";
+"Good!" = "جيد جدا!";
+"Ok Ok!" = "جيد!";
+"Bad!" = "سئ!";
+"Very Bad!" = "سئ جدا!";
+"Write here." = "اكتب هنا";
+"OR" = "او";
+"Submit" = "تقديم";
+"Year" = "السنة";
+"Years" = "السنوات";
+" Years" = "سنوات";
+"Feeling unwell?" = "هل تشعر بالإعياء؟";
+"View All" = "الكل";
+"Hello," = "مرحبا";
+"Find Healers in top Health Centers at your location" = "ابحث عن الأطباء في أفضل المراكز الصحية في موقعك";
+// MARK: - HomeSearchVC
+"Pharmacy" = "الصيدلية";
+"Hospitals" = "المستشفيات";
+"Doctors" = "الأطباء";
+"No data found" = "لا توجد بيانات";
+// MARK: - MyDoctorsVC
+"Available Today" = "متاح اليوم";
+"Not Available Today" = "غير متوفر اليوم";
+"years of exp." = "سنوات الخبرة.";
+"Confirmed" = "مؤكد";
+"Confirm" = "تأكيد";
+"Are you sure you want to reschedule this" = "هل أنت متأكد من رغبتك في إعادة جدولة هذا";
+"appointment?" = "ميعاد؟";
+"Data not found" = "لم يتم العثور على البيانات";
+"Your appointment has been confirmed" = "تم تأكيد موعدك";
+// MARK: - CartVC
+"Covid-19 Testing" = "اختبار Covid-19";
+"Pharmacy" = "الصيدلية";
+"House Call" = "مكالمه المنزل";
+"Clinic Visit" = "زيارة العيادة";
+"Teleconsultation" = "الاستشارات عن بعد";
+"Quantity" = "الكمية";
+// MARK: - AccountVC
+"Under development" = "قيد التطوير";
+"My Saved Cards" = "بطاقاتي المحفوظة";
+"Disable Call Notifications" = "تعطيل إعلامات المكالمات";
+"Disabling this will also disable incoming call notifications" = "سيؤدي تعطيل هذا أيضًا إلى تعطيل إشعارات المكالمات الواردة";
+"Yes" = "نعم";
+"No" = "لا";
+// MARK: - ChangePasswordVC
+"Title" = "العنوان";
+"Please Enter Current Password" = "الرجاء إدخال كلمة المرور الحالية";
+"Current Password" = "الرجاء إدخال كلمة المرور الحالية";
+"Please Enter New Password" = "الرجاء إدخال كلمة مرور جديدة";
+"New Password" = "الرجاء إدخال كلمة مرور جديدة";
+"Please Enter Confirm Password" = "الرجاء إدخال تأكيد كلمة المرور";
+"Re-Enter New Password" = "الرجاء إدخال تأكيد كلمة المرور";
+"Please New & Confirm Password does not match" = "كلمه المرور غير متطابقه";
+"Page Heading" = "عنوان الصفحة";
+"Report has been successfully submitted" = "تم إرسال التقرير بنجاح";
+"No Suggestions Found, Please checkback later" = "لم يتم العثور على اقتراحات ، الرجاء إعادة التحقق لاحقًا";
+"Please Select Location" = "الرجاء تحديد الموقع";
+"Please enable location permissions to continue using this app" = "الرجاء تمكين أذونات الموقع لمتابعة استخدام هذا التطبيق";
+"Settings" = "الإعدادات";
+"Cancel" = "إلغاء";
+// MARK: - FetchCurrentLocationVC
+"Current Location" = "الموقع الحالي";
+"Default Location" = "الموقع الافتراضي";
+"Drag to change" = "اسحب للتغيير";
+"Selected Location" = "الموقع المحدد";
+"Drag map to change location" = "اسحب الخريطة لتغيير الموقع";
+"Selected Location" = "الموقع المحدد";
+"Delivery Address" = "عنوان التسليم";
+"Continue Ordering" = "متابعة الطلب";
+"My Saved Address" = "عنواني المحفوظ";
+"Add New Address" = "إضافة عنوان جديد";
+"Please Select Delivery Address" = "الرجاء تحديد عنوان التسليم";
+"Address Deleted Successfully" = "تم حذف العنوان بنجاح";
+"Edit Address" = "تعديل العنوان";
+"Please Enter Name" = "الرجاء إدخال الاسم";
+"Please Enter valid Name" = "الرجاء إدخال اسم صحيح";
+"Please Enter Mobile Number" = "الرجاء إدخال رقم الهاتف المحمول";
+"Please Enter valid Mobile Number" = "الرجاء إدخال رقم هاتف محمول صحيح";
+"Please Enter Address" = "الرجاء إدخال العنوان";
+"Please Enter City" = "الرجاء إدخال المدينة";
+"Please Enter Pincode" = "الرجاء إدخال الرمز الشخصي";
+"Please Enter valid Pincode" = "الرجاء إدخال رمز سري صحيح";
+"Address updated successfully!" = "تم تحديث العنوان بنجاح!";
+"Address saved successfully!" = "تم حفظ العنوان بنجاح!";
+"Stress & Anxiety" = "التوتر والقلق";
+"Stomach Pain" = "آلام المعدة";
+"Sore Throat" = "التهاب الحلق";
+"Coughing" = "السعال";
+"Headaches" = "الصداع";
+"Fever" = "الحمى";
+"COVID-19 Testing" = "اختبار COVID-19";
+"COVID-19 Vaccination" = "تطعيم COVID-19";
+"About Us" = "نبذة عنا";
+"FAQ" = "الاسئلة الشائعة";
+"Privacy Policy" = "سياسه الخصوصية";
+"Terms & Conditions" = "الشروط والأحكام";
+"Help" = "مساعدة";
+"FAQ's" = "التعليمات";
+"Push notifications" = "التنبيهات";
+"Change Password" = "تغيير كلمة المرور";
+"Face ID" = "تعريف الوجه";
+"Saved Address" = "العنوان المحفوظ";
+"Saved Cards" = "البطاقات المحفوظة";
+"Refer App" = "ترشيح التطبيق";
+"Rate App" = "تقييم التطبيق";
+"Delete account" = "حذف الحساب";
+"My Saved Cards" = "بطاقاتي المحفوظة";
+"Terms and Conditions" = "الشروط والأحكام";
+"term_condition" = "الشروط والأحكام";
+"Hlthera" = "Hlthera";
+"Ok" = "موافق";
+"Unable to connect to the Internet. Please try again." = "تعذر الاتصال بالإنترنت. الرجاء المحاولة مرة أخرى.";
+"Something went wrong. Please try again." = "حدث خطأ ما. أعد المحاولة من فضلك.";
+"changeMobileNumber" = "تغيير رقم الهاتف";
+"Under Development" = "قيد التطوير";
+"Video saved successfully" = "تم حفظ الفيديو بنجاح";
+"Please select an option to pick an image." = "الرجاء تحديد خيار لاختيار صورة.";
+"Camera" = "الكاميرا";
+"Gallery" = "المعرض";
+"Cancel" = "إلغاء";
+"Camera not found" = "لم يتم العثور على الكاميرا";
+"Photo Source" = "مصدر الصورة";
+"Choose a source" = "اختر مصدرًا";
+"Photo Library" = "مكتبة الصور";
+"Unable to load data:" = "تعذر تحميل البيانات:";
+// MARK: - CheckInsListViewController
+"Scheduled" = "مجدولة";
+"Previous" = "السابق";
+"Past" = "السابق";
+"Check in" = "تأكيد";
+"My Bookings" = "الحجوزات الخاصه بى";
+"Book Appointment" = "حجز موعد";
+"Book for Others" = "حجز للآخرين";
+"Checked in successfully completed" = "تم تسجيل الوصول بنجاح";
+"Please Enter Message" = "الرجاء إدخال الرسالة";
+"Hi Doctor! I’m Checking in" = "مرحبًا دكتور! أنا أسجل الوصول";
+"Hi" = "مرحبًا";
+"I’m Checking in" = "أنا أسجل الوصول";
+"Please Enter Message" = "الرجاء إدخال الرسالة";
+// MARK: - ProductDetailsVC
+"About this Product" = "حول هذا المنتج";
+"Benefits" = "الفوائد";
+"How to take/use" = "كيف تأخذ / تستخدم";
+"Add to Cart" = "إضافة إلى عربة التسوق";
+"View Cart" = "عرض عربة التسوق";
+"Please Add items in cart to continue" = "الرجاء إضافة عناصر في سلة التسوق للمتابعة";
+"Price:" = "السعر:";
+"Item Removed Successfully!" = "تمت إزالة العنصر بنجاح!";
+"No. of items" = "عدد العناصر";
+"Price: $" = "السعر: $";
+// MARK: - SubCategroyVC
+"Product Category" = "فئة المنتج";
+"Recommended Products" = "المنتجات الموصى بها";
+"Top Products" = "أهم المنتجات";
+"Quantity(" = "الكمية (";
+"E-prescription has been uploaded successfully" = "تم تحميل الروشتة بنجاح";
+"Max Documents upload limit is reached" = "تم الوصول إلى الحد الأقصى لتحميل المستندات";
+"All orders" = "كل الطلبات";
+"Last 30 days orders" = "طلبات آخر 30 يومًا";
+"All" = "الكل";
+"Price Low to High" = "السعر من الأدنى إلى الأعلى";
+"Price High to Low" = "السعر من الأعلى إلى الأدنى";
+"Newest First" = "الأحدث أولاً";
+"low to high" = "من الأقل إلى الأعلى";
+"high to low" = "من الأعلى إلى الأقل";
+"latest" = "الأحدث";
+"Are you sure you want to cancel this order?" = "هل أنت متأكد أنك تريد إلغاء هذا الطلب؟";
+"Status unavailable" = "الحالة غير متاحة";
+"Cancelled" = "ملغاة";
+"Delivered" = "تم التسليم";
+"Ongoing" = "جارية";
+"Order Pending" = "الطلب معلق";
+"Rejected" = "مرفوض";
+"Approved" = "موافق عليه";
+"Verification Pending" = "التحقق معلق";
+"Estimated Delivery:" = "التوصيل المتوقع:";
+"Qty" = "الكمية";
+"Total Amount paid" = "إجمالي المبلغ المدفوع";
+"Product Details" = "تفاصيل المنتج";
+"Order ID:" = "رقم الطلب:";
+"Total Amount paid" = "إجمالي المبلغ المدفوع";
+"Order Details" = "تفاصيل الطلب";
+"Are you sure you want to cancel this order?" = "هل أنت متأكد أنك تريد إلغاء هذا الطلب؟";
+"Repeat Order" = "كرر الطلب";
+"Place Order Again" = "تقديم الطلب مرة أخرى";
+"Cancel Order" = "إلغاء الطلب";
+"Full Details" = "التفاصيل الكاملة";
+"Block User" = "حظر المستخدم";
+"Unblock User" = "إلغاء حظر المستخدم";
+"Please enter feedback" = "الرجاء إدخال الملاحظات";
+"Are you sure you want to delete this message?" = "هل أنت متأكد أنك تريد حذف هذه الرسالة؟";
+"Booking ID:" = "رقم الحجز";
+"Date and time" = "التاريخ والوقت";
+"30 mins" = "30 دقيقة";
+// MARK: - HospitalProfileVC
+"Laboratory" = "المختبر";
+"Ultrasound" = "الموجات فوق الصوتية";
+"Consultation" = "استشارة";
+"Diabetic care" = "رعاية مرضى السكري";
+"Service Location" = "موقع الخدمة";
+"No Doctors Found associated with this Hospital" = "لم يتم العثور على أطباء مرتبطين بهذا المستشفى";
+"No Experience Found" = "لم يتم العثور على خبرة";
+"Hospital Location" = "موقع المستشفى";
+// MARK: - PractoTimeSlotVC
+"Appointment (slot)" = "الموعد";
+"Sun" = "الاحد";
+"Mon" = "الاثنين";
+"Tue" = "الثلاثاء";
+"Wed" = "الأربعاء";
+"Thu" = "الخميس";
+"Fri" = "الجمعة";
+"Sat" = "السبت";
+"Slots" = "المواعيد";
+"Done" = "تم";
+"Please Enter Card Number" = "الرجاء إدخال رقم البطاقة";
+"Please Enter Name" = "الرجاء إدخال الاسم";
+"Please Enter Card Number" = "الرجاء إدخال رقم البطاقة";
+"Please Enter Card Number" = "الرجاء إدخال رقم البطاقة";
+"Card Saved Successfully!" = "تم حفظ البطاقة بنجاح!";
+"Card Deleted Successfully" = "تم حذف البطاقة بنجاح";
+"Your order placed successfully" = "تم تقديم طلبك بنجاح";
+"Payment has been successfully done" = "تم الدفع بنجاح";
+"Master Card" = "ماستر كارد";
+"Please Select Payment Card" = "الرجاء تحديد بطاقة الدفع";
+"- Promocode Applied!" = "- تم تطبيق البرومو كود!";
+"Save" = "حفظ";
+"Make Payment" = "إجراء الدفع";
+"No Results Found" = "لا توجد نتائج";
+"No Coupons Found" = "لم يتم العثور على قسائم";
+"Please Enter Patient Name" = "الرجاء إدخال اسم المريض";
+"Please Enter Patient Age" = "الرجاء إدخال عمر المريض";
+"Please Enter Valid Patient Age" = "الرجاء إدخال عمر صحيح للمريض";
+"Please Select Patient Gender" = "الرجاء تحديد جنس المريض";
+"Please select Patient Relation" = "الرجاء تحديد علاقة المريض";
+"Please Enter Patient Mobile Number" = "الرجاء إدخال رقم هاتف المريض";
+"Please Enter Valid Patient Mobile Number" = "الرجاء إدخال رقم جوال صحيح للمريض";
+"Please Enter Patient Email Address" = "الرجاء إدخال عنوان البريد الإلكتروني للمريض";
+"Please Enter Valid Patient Email Address" = "الرجاء إدخال عنوان بريد إلكتروني صحيح للمريض";
+"Please Select Booking Type" = "الرجاء تحديد نوع الحجز";
+"Type of Booking" = "نوع الحجز";
+"Chat" = "محادثه";
+"Video Call" = "مكالمة فيديو";
+"Call" = "مكالمة صوتيه";
+"Home Visit" = "زيارة منزلية";
+"Apply Filter" = "تنفيز التصنيف";
+"Filter" = "التصنيف";
+"Select Language" = "اختار اللغة";
+"Availability" = "الاتاحة";
+"Available Now" = "متاح الان";
+"Healer’s Gender" = "جنس الطبيب";
+"Male Healers" = "الأطباء الذكور";
+"Female Healers" = "طبيبات";
+"Business Hours" = "ساعات العمل";
+"Healer Around You" = "طبيب بالقرب منك";
+"Specialties" = "التخصصات";
+" Specialities" = " التخصصات";
+"Specialtie" = "تخصص";
+" Specialitie" = " تخصص";
+"List of Health Centers" = "قائمة المراكز الصحية" ;
+"Gender" = "النوع";
+"Gender*" = "النوع*";
+"Upload Back" = "حميل الخلف";
+"Upload Front" = "حميل الامام";
+"Save Profile" = "حفظ التعديلات";
+"Medical ID" = "معرف طبي";
+"Lifestyle" = "نمط الحياة";
+"Personal Details" = "تفاصيل شخصية";
+
+"Enter Insurance Company..." = "...أدخل شركة التأمين";
+"Quick search" = "البحث السريع";
+"Search" = "ابحث";
+"Mental Health" = "الصحة النفسية";
+"Alternative Medecine" = "الطب البديل";
+"Dermatology" = "الأمراض الجلدية";
+"General Practitioner" = "طبيب عام";
+"Orthopedics" = "طب العظام";
+"Dentistry" = "طب الأسنان";
+"Obtetrics & Geneacology" = "التوليد وأمراض النساء";
+"Pediatrics" = "طب الأطفال";
+"Please enter notes" = "الرجاء إدخال الملاحظات";
+"Please Enter Name" = "الرجاء إدخال الاسم";
+"Please Enter Age" = "الرجاء إدخال العمر";
+"Please Enter Valid Age" = "الرجاء إدخال العمر الصحيح";
+"Please Select Gender" = "الرجاء تحديد الجنس";
+"Please Enter Mobile Number" = "الرجاء إدخال رقم الهاتف المحمول";
+"Please Enter Valid Mobile Number" = "الرجاء إدخال رقم هاتف محمول صحيح";
+"Please Enter Email Address" = "الرجاء إدخال عنوان البريد الإلكتروني";
+"Please Enter Valid Email Address" = "الرجاء إدخال عنوان بريد إلكتروني صحيح";
+"Please Enter Address or Select Address" = "الرجاء إدخال العنوان أو تحديد العنوان";
+"Please Enter Valid Address" = "الرجاء إدخال عنوان صحيح";
+"Please Enter City" = "الرجاء إدخال المدينة";
+"Please Enter Valid City" = "الرجاء إدخال مدينة صحيحه";
+"Please Enter Pincode" = "الرجاء إدخال الرمز الشخصي";
+"Please Enter Valid Pincode" = "الرجاء إدخال رمز سري صحيح";
+"Payment has been successfully done" = "تم الدفع بنجاح";
+"Your order placed successfully" = "تم تقديم طلبك بنجاح";
+"Select Date" = "حدد التاريخ";
+"Slot Unavailable" = "الميعاد غير متوفر";
+"No Experience Found" = "لم يتم العثور على خبرة";
+"years of exp." = "سنوات الخبرة.";
+"Select Slots" = "تحديد المواعيد";
+"Service Unavailable" = "الخدمة غير متوفرة";
+"male" = "ذكر";
+"female" = "أنثى";
+"Current Location" = "الموقع الحالي";
+"Location" = "الموقع";
+"Address" = "العنوان";
+"Selected Address" = "العنوان المحدد";
+"Select Address" = "حدد العنوان";
+"Anonymous" = "مجهول";
+"More" = "المزيد";
+"Wrong Timings" = "المواعيد خاطئة";
+"Wrong phone number" = "رقم الهاتف خاطئ";
+"Wrong Address" = "عنوان خاطئ";
+"Please Select One" = "الرجاء تحديد واحد";
+"Wrong consultation fee" = "رسوم استشارة خاطئة";
+"No services available for booking, please try again later" = "لا توجد خدمات متاحة للحجز ، يرجى المحاولة مرة أخرى لاحقًا";
+"Doctor Around You" = "اطباء حولك";
+"Search Hospitals, Speciality" = "البحث في المستشفيات ، التخصص";
+"My Doctors" = "أطبائي";
+"Under Dev" = "تحت التطوير";
+"Address not found" = "العنوان غير موجود";
+" years of exp." = "سنوات الخبرة.";
+"Starting from $" = "بدءًا من $";
+"Not Available" = "غير متوفر";
+"Not Available Today" = "غير متوفر اليوم";
+"Available Today" = "متاح اليوم";
+"Available From" = "متوفر من";
+"Male" = "ذكر";
+"Female" = "أنثى";
+"About" = "حول";
+"Awards and Honours" = "الجوائز والتكريم";
+"Core competencies" = "الكفاءات الأساسية";
+"Rating & Reviews" = "التقييم و المراجعات";
+"Rating and review" = "التقييم و المراجعات";
+"Title" = "عنوان";
+"Join by Video" = "الانضمام عن طريق الفيديو" ;
+"Your details:" = "تفاصيلك";
+"Insurance" = "تأمين";
+"Unknown Address" = "عنوان غير معروف";
+"Your ongoing appointment" = "موعدك المستمر";
+"Your scheduled appointment" = "موعدك المقرر";
+"Booking Details" = "تفاصيل حجزك";
+"Appointment" = "ميعاد";
+"Unknown hospital name" = "اسم مستشفى غير معروف";
+"Unknown doctor name" = "اسم الدكتور غير معروف";
+"Unknown Speciality" = "تخصص غير معروف";
+"My Check-ins List" = "قائمة تسجيل الوصول الخاصة بي";
+"Unknown doctor specialities" = "تخصص الدكتور غير معروف";
+"Reviews" = "المراجعات";
+"Report Problem" = "أبلغ عن مشكلة";
+"Specialization" = "التخصص";
+"Education" = "التعليم";
+"Experience" = "الخبرة";
+"Rating" = "التقييم";
+"Patient's Name" = "اسم المريض";
+"Patient's Email Address" = "عنوان البريد الإلكتروني للمريض";
+"Notifications" = "اشعارات";
+"UserName" = "اسم مستخدم" ;
+"Edit profile" = "تعديل الملف";
+"Check-in" = "تأكيد";
+"Book Again" = "اعادة الحجز";
+"Favorites" = "المفضلين";
+"My Favourites" = "المفضلين";
+"Medical Records" = "سجلات طبية";
+"Search by specialities, healers, or health centres." = ".ابحث بالتخصص او اسم المستخدم او اسم المستشفى";
+"Patient's Mobile Number" = "رقم هاتف المريض";
+"Patient's Gender" = "جنس المريض";
+"Insurance Number" = "رقم التأمين";
+"Service Location" = "موقع الخدمة";
+"Book again" = "احجز مرة أخرى";
+"Your Upcoming Clinic Appointment with" = "موعدك القادم بالعيادة مع";
+" Yrs Experience" = "سنوات الخبرة";
+"Booked on:" = "حجز في:";
+"Your appointment has been confirmed" = "تم تأكيد موعدك";
+"Are you sure you want to reschedule this" = "هل أنت متأكد من رغبتك في إعادة جدولة هذا";
+"appointment?" = "ميعاد؟";
+"Data not found" = "لم يتم العثور على البيانات";
+"Join meeting" = "الانضمام إلى الاجتماع";
+"Meeting number" = "رقم الاجتماع";
+"Meeting password" = "كلمة مرور الاجتماع";
+"Log in" = "تسجيل الدخول";
+"Email" = "البريد الإلكتروني";
+"Password" = "كلمة المرور";
+"Alert" = "تنبيه";
+"Are you sure you want to cancel this appointment?" = "هل أنت متأكد أنك تريد إلغاء هذا الموعد؟";
+"Insurance Number" = "رقم التأمين";
+"Patient's Gender" = "جنس المريض";
+"Enter Password" = "أدخل كلمة المرور";
+"Enter E-mail or Phone" = "أدخل البريد الإلكتروني أو الهاتف";
+"Enter Full Name" = "أدخل الاسم الكامل";
+"Enter Mobile Number" = "أدخل رقم الهاتف المحمول";
+"Enter Email" = "أدخل البريد الإلكتروني";
+"Enter Password" = "أدخل كلمة المرور";
+"Enter Confirm Password" = "أدخل تأكيد كلمة المرور";
+"Signed Up Successfully!" = "تم الاشتراك بنجاح!";
+"Logout" = "تسجيل الخروج";
+"Select Country" = "حدد الدولة";
+"Choose Date" = "اختر التاريخ";
+"OK" = "موافق";
+"Please type the verification code sent to your Mobile number" = "الرجاء كتابة رمز التحقق المرسل إلى رقم هاتفك المحمول";
+"Coming Soon" = "قريبًا";
+"OTP Resent Successfully" = "تمت إعادة إرسال رمز التحقق بنجاح";
+"Something went wrong. Please try again." = "حدث خطأ ما. أعد المحاولة من فضلك.";
+"Please check your internet connection !" = "الرجاء التحقق من اتصال الانترنت الخاص بك !";
+"Your session has expired. Please login again. -> 🚀 " = "انتهت جلستك. الرجاء تسجيل الدخول مرة أخرى. -> 🚀";
+"Unable to connect to the Internet. Please try again." = "تعذر الاتصال بالإنترنت. الرجاء المحاولة مرة أخرى.";
+"Oops something went wrong. Please try again later." = "عفوًا ، حدث خطأ ما. الرجاء إعادة المحاولة لاحقًا.";
+"No Data Found 🎈" = "لم يتم العثور على بيانات 🎈";
+"Empty name 🚀" = "اسم فارغ 🚀";
+"Under Development 👨‍🏫" = "قيد التطوير 👨‍🏫";
+"Are you sure you want to logout?" = "هل أنت متأكد أنك تريد تسجيل الخروج؟";
+"Please sign in first." = "الرجاء تسجيل الدخول أولاً.";
+"you are already on this page 🤣 -> 🚀" = "أنت موجود بالفعل في هذه الصفحة 🤣 -> 🚀";
+"Mobile Number" = "رقم الجوال";
+"Profile Completed" = "ملف التعريف مكتمل";
+"Weight" = "عرض";
+"Hight" = "طول";
+"Blood Group" = "فصيلة الدم";
+"Emergency Contact" = "رقم للطوارء";
+"Relation" = "علاقة";
+"Mediacl Notes" = "ملاحظات طبيه";
+"Add Allergies" = "أضف الحساسية";
+"Allergies" = "الحساسية";
+"Allergies allergies" = "الحساسية";
+"Add Medication" = "أضف الدواء";
+"Past Medication" = "الدواء الماضي";
+"Current Medication" = "الدواء الحالي";
+"Add Disease" = "أضف المرض";
+"Add Smoking Habit" = "أضف عادة التدخين";
+"Smoking Habit" = "عادة التدخين";
+"Add Alcohol" = "أضف الكحول";
+"Alcohol" = "الكحول";
+"Add Activity Level" = "إضافة مستوى النشاط";
+"Activity Level" = "مستوى النشاط";
+"Chronic Disease" = "مرض مزمن";
+"Patient can write anything related to his/her medical condition" = "يمكن للمريض كتابة أي شيء يتعلق بحالته الطبية";
+"Full Name" = "الاسم الكامل";
+"Email ID" = "معرف البريد الإلكتروني";
+"Mobile Number" = "رقم الجوال";
+"Date of Birth" = "تاريخ الميلاد";
+"Nationalty" = "الجنسية";
+"UAE Resident or Non UAE Resident" = "مقيم في الإمارات العربية المتحدة أو غير مقيم في الإمارات";
+"Insurance Number" = "رقم التأمين";
+"Expiry Date" = "تاريخ انتهاء الصلاحية";
+"Marital status" = "الحالة الاجتماعية";
+"Address" = "العنوان";
+"Non-UAE Resident" = "غير مقيم في الإمارات العربية المتحدة";
+"UAE Resident" = "مقيم في الإمارات العربية المتحدة";
+"Single" = "واحد";
+"Married" = "متزوج";
+"Please Enable Location Permissions from Settings" = "الرجاء تمكين أذونات الموقع من الإعدادات";
+"0% Profile completed" = "0٪ اكتمل ملف التعريف";
+"80% Profile completed" = "اكتمل 80٪ من ملف التعريف";
+"Are you allergic to anything ?" = "هل لديك حساسية ضد أي شيء ؟";
+"Are you taking any medicines at the moments?" = "هل تتناول أي أدوية في الوقت الحالي؟";
+"Have you have an any medications in the past?" = "هل تناولت أي أدوية في الماضي؟";
+"Do you have any chronic illnesses?" = "هل لديك أي أمراض مزمنة؟";
+"Have you had any injuries in the past?" = "هل تعرضت لأي إصابات في الماضي؟";
+"Any past Surgeries?" = "أي عمليات جراحية سابقة؟";
+"Add an allergy" = "إضافة حساسية";
+"Add an Medications" = "إضافة أدوية";
+"Add an Medications" = "إضافة أدوية";
+"Add an illnesses" = "إضافة مرض";
+"Add an injury" = "إضافة إصابة";
+"Add an surgery" = "إضافة عملية جراحية";
+"Questions Left" = "الأسئلة المتبقية";
+"Please Enter Email/Mobile Number" = "الرجاء إدخال البريد الإلكتروني / رقم الهاتف المحمول";
+"Choose Your Doctor" = "اختر طبيبك";
+"Widget Notification" = "تنبيهات";
+"Select Your Pharmacy" = "اختر الصيدلية";
+"Choose Your Laboratory" = "اختر مختبرك";
+"About Us" = "من نحن";
+"Privacy Policy" = "سياسة الخصوصية";
+"Terms & Conditions" = "الشروط و الاستخدامات";
+"Help" = "طلب المساعدة";
+"FAQ's" = "الاسئله الشائعة";
+"Push notifications" = "الإشعارات";
+"Change Password" = "تغيير كلمة المرور";
+"Refer App" = "اخبر صديقك";
+"Rate App" = "تقييم التطبيق";
+"Delete account" = "حذف الحساب";
+"Contact Us" = "تواصل معنا";
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="gotham-rounded-book.otf">
+            <string>GothamRounded-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="SenderVideoCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="SenderVideoCell" id="KGk-i7-Jjw" customClass="SenderVideoCell" customModule="Consultation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E0q-EK-iWI">
+                        <rect key="frame" x="200" y="5" width="157" height="98"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="157" id="Cyr-eN-GkX"/>
+                            <constraint firstAttribute="height" constant="98" id="heB-iT-kFY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wq-yD-Zgy">
+                        <rect key="frame" x="357" y="5" width="50" height="98"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="RXy-0r-cmf"/>
+                        </constraints>
+                        <state key="normal" image="delete-1"/>
+                        <connections>
+                            <action selector="tap_DeleteBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="eYX-ZA-XLd"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:04 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fla-Lv-Hib">
+                        <rect key="frame" x="305" y="112" width="52" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="u3s-ge-DxV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamRounded-Book" family="Gotham Rounded" pointSize="12"/>
+                        <color key="textColor" red="0.30588235289999999" green="0.32156862749999998" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat_doubleTick" translatesAutoresizingMaskIntoConstraints="NO" id="kYG-Di-Vnf">
+                        <rect key="frame" x="289" y="116.5" width="12" height="6"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="6" id="Anl-j4-9SO"/>
+                            <constraint firstAttribute="width" constant="12" id="bOr-8u-EOe"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvY-GJ-fzo">
+                        <rect key="frame" x="200" y="5" width="157" height="98"/>
+                        <state key="normal" image="vedio play"/>
+                        <connections>
+                            <action selector="btnPlayVideo:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qmE-xg-8bd"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="LvY-GJ-fzo" firstAttribute="bottom" secondItem="E0q-EK-iWI" secondAttribute="bottom" id="2Fk-9S-1IY"/>
+                    <constraint firstItem="kYG-Di-Vnf" firstAttribute="centerY" secondItem="fla-Lv-Hib" secondAttribute="centerY" id="CaU-xg-coy"/>
+                    <constraint firstAttribute="bottom" secondItem="fla-Lv-Hib" secondAttribute="bottom" constant="7" id="FBZ-7i-ZN1"/>
+                    <constraint firstItem="LvY-GJ-fzo" firstAttribute="trailing" secondItem="E0q-EK-iWI" secondAttribute="trailing" id="IFh-Zf-CXX"/>
+                    <constraint firstItem="LvY-GJ-fzo" firstAttribute="leading" secondItem="E0q-EK-iWI" secondAttribute="leading" id="L02-ne-vsm"/>
+                    <constraint firstItem="0wq-yD-Zgy" firstAttribute="top" secondItem="E0q-EK-iWI" secondAttribute="top" id="O5W-v8-4BJ"/>
+                    <constraint firstItem="LvY-GJ-fzo" firstAttribute="top" secondItem="E0q-EK-iWI" secondAttribute="top" id="PDQ-5P-LHX"/>
+                    <constraint firstItem="0wq-yD-Zgy" firstAttribute="leading" secondItem="E0q-EK-iWI" secondAttribute="trailing" id="RKq-QF-mRK"/>
+                    <constraint firstItem="E0q-EK-iWI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Rnm-Xm-dRq"/>
+                    <constraint firstItem="fla-Lv-Hib" firstAttribute="leading" secondItem="kYG-Di-Vnf" secondAttribute="trailing" constant="4" id="a0K-Ut-q6N"/>
+                    <constraint firstAttribute="trailing" secondItem="E0q-EK-iWI" secondAttribute="trailing" constant="18" id="cY6-Hu-ZSf"/>
+                    <constraint firstItem="fla-Lv-Hib" firstAttribute="top" secondItem="E0q-EK-iWI" secondAttribute="bottom" constant="9" id="eEx-qV-JaK"/>
+                    <constraint firstItem="0wq-yD-Zgy" firstAttribute="bottom" secondItem="E0q-EK-iWI" secondAttribute="bottom" id="eK6-Ip-HeV"/>
+                    <constraint firstItem="fla-Lv-Hib" firstAttribute="trailing" secondItem="E0q-EK-iWI" secondAttribute="trailing" id="pld-H9-mFR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnDelete" destination="0wq-yD-Zgy" id="1uF-mj-IUE"/>
+                <outlet property="imgTrailingConstraint" destination="cY6-Hu-ZSf" id="C71-kU-1xU"/>
+                <outlet property="sendimageView" destination="E0q-EK-iWI" id="3Jz-F9-W4D"/>
+                <outlet property="tickImgView" destination="kYG-Di-Vnf" id="ep6-Ob-fzX"/>
+                <outlet property="time" destination="fla-Lv-Hib" id="2dj-Lw-IN8"/>
+                <outlet property="videoBtn" destination="LvY-GJ-fzo" id="VVU-Ym-xPk"/>
+            </connections>
+            <point key="canvasLocation" x="26.086956521739133" y="113.50446428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chat_doubleTick" width="12" height="6"/>
+        <image name="delete-1" width="13" height="16"/>
+        <image name="vedio play" width="41" height="41"/>
+    </resources>
+</document>

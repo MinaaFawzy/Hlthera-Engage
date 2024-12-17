@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddOtherPopupVC" customModule="Hlthera" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="dn8-0N-h6a" id="P4K-nR-qxj"/>
+                <outlet property="continueButton" destination="Zgx-Ag-szx" id="wmO-zc-2wH"/>
+                <outlet property="descriptionLabel" destination="E4b-Fz-aAL" id="qQd-zL-SQo"/>
+                <outlet property="mainView" destination="RvK-hf-7fc" id="K0j-c7-YEJ"/>
+                <outlet property="titleLabel" destination="PyU-TL-Gzx" id="02J-q7-UNU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jVB-ED-bDu">
+                    <rect key="frame" x="0.0" y="12.666666666666686" width="393" height="852"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RvK-hf-7fc">
+                    <rect key="frame" x="39.333333333333343" y="348.66666666666669" width="314.33333333333326" height="155"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Lzj-OW-vMU">
+                            <rect key="frame" x="15" y="10" width="284.33333333333331" height="135"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nfh-tB-h3c">
+                                    <rect key="frame" x="0.0" y="0.0" width="284.33333333333331" height="80"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age Restriction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyU-TL-Gzx">
+                                            <rect key="frame" x="86.333333333333314" y="0.0" width="111.66666666666669" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="k94-RJ-B9p"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="16"/>
+                                            <color key="textColor" name="5"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book for Others is intended for individuals under the age of 18. please create your own profile for a personalised experience." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4b-Fz-aAL">
+                                            <rect key="frame" x="0.0" y="35" width="284.33333333333331" height="45"/>
+                                            <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="80" id="bPc-kw-ZTO"/>
+                                    </constraints>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="iNh-CE-AP9">
+                                    <rect key="frame" x="10" y="95" width="264.33333333333331" height="40"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgx-Ag-szx">
+                                            <rect key="frame" x="0.0" y="0.0" width="124.66666666666667" height="40"/>
+                                            <color key="backgroundColor" red="0.1019607843" green="0.25098039220000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Continue">
+                                                <fontDescription key="titleFontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
+                                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </buttonConfiguration>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                    <real key="value" value="20"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="continueTapped" destination="-1" eventType="touchUpInside" id="Wx7-2y-ItS"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dn8-0N-h6a">
+                                            <rect key="frame" x="139.66666666666669" y="0.0" width="124.66666666666669" height="40"/>
+                                            <color key="backgroundColor" name="10"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                                                <fontDescription key="titleFontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
+                                                <color key="baseForegroundColor" name="4"/>
+                                            </buttonConfiguration>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                    <real key="value" value="20"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="cancelTapped" destination="-1" eventType="touchUpInside" id="TD1-JO-ERn"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="JD0-DL-EKj"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="iNh-CE-AP9" firstAttribute="leading" secondItem="Lzj-OW-vMU" secondAttribute="leading" constant="10" id="Ku1-wV-Rbu"/>
+                                <constraint firstAttribute="trailing" secondItem="iNh-CE-AP9" secondAttribute="trailing" constant="10" id="l17-gF-QGM"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Lzj-OW-vMU" secondAttribute="bottom" constant="10" id="410-Ih-tjp"/>
+                        <constraint firstItem="Lzj-OW-vMU" firstAttribute="leading" secondItem="RvK-hf-7fc" secondAttribute="leading" constant="15" id="PL0-ES-DNu"/>
+                        <constraint firstAttribute="trailing" secondItem="Lzj-OW-vMU" secondAttribute="trailing" constant="15" id="W5e-E7-3xt"/>
+                        <constraint firstAttribute="height" constant="155" id="ty0-pP-h46"/>
+                        <constraint firstItem="Lzj-OW-vMU" firstAttribute="top" secondItem="RvK-hf-7fc" secondAttribute="top" constant="10" id="vaM-qL-pOH"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="RvK-hf-7fc" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="GEe-I1-2Re"/>
+                <constraint firstItem="jVB-ED-bDu" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="NkP-CE-M3V"/>
+                <constraint firstItem="jVB-ED-bDu" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="V3h-cS-vTq"/>
+                <constraint firstItem="RvK-hf-7fc" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="YQR-If-KCC"/>
+                <constraint firstItem="RvK-hf-7fc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="myx-Ut-wMw"/>
+                <constraint firstItem="jVB-ED-bDu" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="y2x-fB-fJ3"/>
+                <constraint firstItem="jVB-ED-bDu" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="ys0-RU-Qa4"/>
+            </constraints>
+            <point key="canvasLocation" x="125.95419847328243" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="10">
+            <color red="0.96078431372549022" green="0.96862745098039216" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="4">
+            <color red="0.52941176470588236" green="0.58039215686274515" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="5">
+            <color red="0.10196078431372549" green="0.25098039215686274" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

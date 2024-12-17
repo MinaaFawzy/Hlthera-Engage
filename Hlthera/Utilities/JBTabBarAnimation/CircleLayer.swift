@@ -1,0 +1,49 @@
+//
+//  CircleLayer.swift
+//  JBTabBarAnimation
+//
+//  Created by Jithin Balan on 2/5/19.
+//
+
+import Foundation
+import UIKit
+
+open class CircleLayer: CAShapeLayer {
+    
+    var circleColor = UIColor.white
+//    var circleColor = UIColor.red
+
+    var positionValue: CGPoint = .zero
+    private var radiusValue: CGFloat = 25
+    
+    override init() {
+        super.init()
+    }
+    
+    required public init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    func createCircle() -> CircleLayer {
+        fillColor = circleColor.cgColor
+        path = createPath()
+//        shadowColor = UIColor.lightGray.cgColor
+//        shadowColor = UIColor.green.cgColor
+        shadowColor = UIColor.yellow.cgColor
+        
+        backgroundColor = UIColor.yellow.cgColor
+        
+        
+        shadowOffset = .zero
+        shadowOpacity = 0.3
+        shadowRadius = 3
+        return self
+    }
+    
+    func createPath() -> CGPath{
+        let path = UIBezierPath()
+        path.addArc(withCenter: positionValue, radius: radiusValue, startAngle: 0, endAngle: .pi * 2, clockwise: true)
+        return path.cgPath
+    }
+    
+}

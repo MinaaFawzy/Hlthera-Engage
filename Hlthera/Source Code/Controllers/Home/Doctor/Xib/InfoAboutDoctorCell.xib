@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="139" id="KGk-i7-Jjw" customClass="InfoAboutDoctorCell" customModule="Hlthera" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DK2-KT-9Ie">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="GYh-Kx-cRc" userLabel="About Stack View">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sx4-zm-3N5">
+                                        <rect key="frame" x="15" y="9.9999999999999982" width="290" height="19.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="16"/>
+                                        <color key="textColor" red="0.14901960780000001" green="0.24313725489999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZE-6i-t8F">
+                                        <rect key="frame" x="15" y="34.333333333333336" width="290" height="91.666666666666657"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </string>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
+                                        <color key="textColor" red="0.12941176469999999" green="0.1450980392" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <edgeInsets key="layoutMargins" top="10" left="15" bottom="8" right="15"/>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y9p-dt-xmx" userLabel="Separator">
+                                <rect key="frame" x="0.0" y="134" width="320" height="5"/>
+                                <viewLayoutGuide key="safeArea" id="fhO-o4-gb8"/>
+                                <color key="backgroundColor" name="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="ygP-ZA-RHC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GYh-Kx-cRc" firstAttribute="top" secondItem="DK2-KT-9Ie" secondAttribute="top" id="6yy-hU-ZIa"/>
+                            <constraint firstItem="GYh-Kx-cRc" firstAttribute="leading" secondItem="DK2-KT-9Ie" secondAttribute="leading" id="O0V-Vs-Zov"/>
+                            <constraint firstItem="y9p-dt-xmx" firstAttribute="top" secondItem="GYh-Kx-cRc" secondAttribute="bottom" id="RIt-cx-t9x"/>
+                            <constraint firstAttribute="trailing" secondItem="y9p-dt-xmx" secondAttribute="trailing" id="RtB-j9-ck1"/>
+                            <constraint firstAttribute="trailing" secondItem="GYh-Kx-cRc" secondAttribute="trailing" id="YNi-ZP-3TZ"/>
+                            <constraint firstAttribute="bottom" secondItem="y9p-dt-xmx" secondAttribute="bottom" id="ZQR-PZ-S2A"/>
+                            <constraint firstItem="y9p-dt-xmx" firstAttribute="leading" secondItem="DK2-KT-9Ie" secondAttribute="leading" id="cm0-xL-48L"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="DK2-KT-9Ie" secondAttribute="bottom" id="7tc-K0-EHL"/>
+                    <constraint firstItem="DK2-KT-9Ie" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bb7-hO-hG2"/>
+                    <constraint firstAttribute="trailing" secondItem="DK2-KT-9Ie" secondAttribute="trailing" id="dLZ-fZ-jBU"/>
+                    <constraint firstItem="DK2-KT-9Ie" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="iOJ-Me-2OR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="infoLabel" destination="qZE-6i-t8F" id="MJC-hw-ADI"/>
+                <outlet property="titleLabel" destination="sx4-zm-3N5" id="Rb8-bC-VMz"/>
+            </connections>
+            <point key="canvasLocation" x="76.33587786259541" y="18.661971830985916"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="10">
+            <color red="0.96078431372549022" green="0.96862745098039216" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

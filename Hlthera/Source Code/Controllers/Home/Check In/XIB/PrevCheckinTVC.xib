@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PrevCheckinTVC" rowHeight="300" id="dPy-Xx-BQ4" userLabel="PrevCheckinTVC" customClass="PrevCheckinTVC" customModule="Hlthera" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="279"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dPy-Xx-BQ4" id="LRx-a1-IeS">
+                <rect key="frame" x="0.0" y="0.0" width="427" height="279"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYD-QE-Upa">
+                        <rect key="frame" x="15" y="10" width="397" height="254"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Peter Stone Online" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZk-qW-HX9">
+                                <rect key="frame" x="15" y="15" width="138.5" height="17"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="14"/>
+                                <color key="textColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Ypn-2F-Lnq">
+                                <rect key="frame" x="33.5" y="189" width="330" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2f-PO-nWj">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="35"/>
+                                        <color key="backgroundColor" red="0.86274509799999999" green="0.86666666670000003" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="w53-1q-Arl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="11"/>
+                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                                        <state key="normal" title="Chat">
+                                            <color key="titleColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                <real key="value" value="17.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonChatTapped:" destination="dPy-Xx-BQ4" eventType="touchUpInside" id="cbO-iB-yTj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VU3-hu-Mhx">
+                                        <rect key="frame" x="180" y="0.0" width="150" height="35"/>
+                                        <color key="backgroundColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="iRR-Pi-pbV"/>
+                                            <constraint firstAttribute="height" constant="35" id="ntq-0A-7Tv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="11"/>
+                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                                        <state key="normal" title="Check in">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                                <real key="value" value="17.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonCheckInTapped:" destination="dPy-Xx-BQ4" eventType="touchUpInside" id="NrP-fE-JO2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="VoQ-gm-4eP">
+                                <rect key="frame" x="276" y="15" width="97" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="MqF-Wn-Hto"/>
+                                    <constraint firstAttribute="height" constant="97" id="cLx-go-p0h"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                        <real key="value" value="48.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth1">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor1">
+                                        <color key="value" name="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call_sm" translatesAutoresizingMaskIntoConstraints="NO" id="BOD-VS-qFM">
+                                <rect key="frame" x="338" y="77" width="40" height="40"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Available today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbq-zH-igL">
+                                <rect key="frame" x="15" y="59.5" width="78.5" height="14.5"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="12"/>
+                                <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Booking ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJa-YE-7gc">
+                                <rect key="frame" x="15" y="40" width="62.5" height="14.5"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="12"/>
+                                <color key="textColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AFUD7989" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNX-5h-zuy">
+                                <rect key="frame" x="82.5" y="40" width="59" height="14.5"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="12"/>
+                                <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BOD-VS-qFM" firstAttribute="trailing" secondItem="VoQ-gm-4eP" secondAttribute="trailing" constant="5" id="1ze-U1-zog"/>
+                            <constraint firstItem="VoQ-gm-4eP" firstAttribute="top" secondItem="FZk-qW-HX9" secondAttribute="bottom" constant="-17" id="6Pr-sF-hOl"/>
+                            <constraint firstAttribute="trailing" secondItem="BOD-VS-qFM" secondAttribute="trailing" constant="19" id="Aqq-yc-jIq"/>
+                            <constraint firstItem="fbq-zH-igL" firstAttribute="top" secondItem="cJa-YE-7gc" secondAttribute="bottom" constant="5" id="KfQ-0a-3m1"/>
+                            <constraint firstItem="BOD-VS-qFM" firstAttribute="bottom" secondItem="VoQ-gm-4eP" secondAttribute="bottom" constant="5" id="ORU-xN-ECZ"/>
+                            <constraint firstItem="FZk-qW-HX9" firstAttribute="top" secondItem="cJa-YE-7gc" secondAttribute="bottom" constant="-39.5" id="PF9-ZV-VOM"/>
+                            <constraint firstItem="Ypn-2F-Lnq" firstAttribute="centerX" secondItem="WYD-QE-Upa" secondAttribute="centerX" id="Pew-P7-KPh"/>
+                            <constraint firstItem="FZk-qW-HX9" firstAttribute="leading" secondItem="cJa-YE-7gc" secondAttribute="leading" id="Sa6-8N-EMg"/>
+                            <constraint firstItem="fbq-zH-igL" firstAttribute="leading" secondItem="WYD-QE-Upa" secondAttribute="leading" constant="15" id="eyE-8P-zTb"/>
+                            <constraint firstItem="cJa-YE-7gc" firstAttribute="top" secondItem="WYD-QE-Upa" secondAttribute="top" constant="40" id="i03-P4-kAr"/>
+                            <constraint firstItem="cJa-YE-7gc" firstAttribute="leading" secondItem="WYD-QE-Upa" secondAttribute="leading" constant="15" id="mVG-gR-TjQ"/>
+                            <constraint firstItem="XNX-5h-zuy" firstAttribute="centerY" secondItem="cJa-YE-7gc" secondAttribute="centerY" id="oCo-9V-9FS"/>
+                            <constraint firstAttribute="bottom" secondItem="Ypn-2F-Lnq" secondAttribute="bottom" constant="30" id="wFc-YC-Q8b"/>
+                            <constraint firstItem="XNX-5h-zuy" firstAttribute="leading" secondItem="cJa-YE-7gc" secondAttribute="trailing" constant="5" id="xBM-UL-ySI"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.96078431372549022" green="0.96862745098039216" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="WYD-QE-Upa" firstAttribute="leading" secondItem="LRx-a1-IeS" secondAttribute="leading" constant="15" id="61O-BO-kzp"/>
+                    <constraint firstItem="WYD-QE-Upa" firstAttribute="top" secondItem="LRx-a1-IeS" secondAttribute="top" constant="10" id="DMi-93-CAp"/>
+                    <constraint firstAttribute="trailing" secondItem="WYD-QE-Upa" secondAttribute="trailing" constant="15" id="YQY-E3-NFe"/>
+                    <constraint firstAttribute="bottom" secondItem="WYD-QE-Upa" secondAttribute="bottom" constant="15" id="uSf-p6-umF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="dTR-Qa-QaJ"/>
+            <connections>
+                <outlet property="imageDoctor" destination="VoQ-gm-4eP" id="Qfb-Mw-NPq"/>
+                <outlet property="imageServiceIcon" destination="BOD-VS-qFM" id="wDg-o7-Xfa"/>
+                <outlet property="labelBookingID" destination="XNX-5h-zuy" id="53M-iX-Q9P"/>
+                <outlet property="labelDoctorName" destination="FZk-qW-HX9" id="oV0-v1-9XO"/>
+                <outlet property="labelTime" destination="fbq-zH-igL" id="Xrd-65-8bT"/>
+            </connections>
+            <point key="canvasLocation" x="135.50724637681159" y="167.07589285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="call_sm" width="40" height="40"/>
+        <image name="placeholder" width="97" height="97"/>
+        <namedColor name="5">
+            <color red="0.10196078431372549" green="0.25098039215686274" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

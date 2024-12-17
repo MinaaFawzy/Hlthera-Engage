@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SurveySubmitCVC" customModule="Hlthera" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="483"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="483"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tjC-qi-Dsu">
+                        <rect key="frame" x="0.0" y="0.0" width="332" height="483"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ok_big" translatesAutoresizingMaskIntoConstraints="NO" id="1tU-ax-SAV">
+                                <rect key="frame" x="129" y="53" width="74.5" height="74.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High five! What makes you satisfied?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpp-cu-tIC">
+                                <rect key="frame" x="49" y="142.5" width="234" height="17"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="14"/>
+                                <color key="textColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe up to back" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8X-LU-P7s">
+                                <rect key="frame" x="108" y="15" width="116" height="18"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="15"/>
+                                <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="feb-hX-7cx" customClass="CardView" customModule="Hlthera" customModuleProvider="target">
+                                <rect key="frame" x="15" y="174.5" width="302" height="173"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helpful and thoughtghful" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70T-1E-MlF">
+                                        <rect key="frame" x="50" y="22" width="171" height="18"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="15"/>
+                                        <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbC-bB-CTa">
+                                        <rect key="frame" x="15" y="20" width="20" height="22"/>
+                                        <state key="normal" image="uncheck_box"/>
+                                        <state key="selected" image="check_box"/>
+                                        <connections>
+                                            <action selector="buttonCheckTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="b6n-pp-Bxk"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick and responsive" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVh-y1-k43">
+                                        <rect key="frame" x="50" y="59" width="147" height="18"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="15"/>
+                                        <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sm-5t-3DF">
+                                        <rect key="frame" x="15" y="57" width="20" height="22"/>
+                                        <state key="normal" image="uncheck_box"/>
+                                        <state key="selected" image="check_box"/>
+                                        <connections>
+                                            <action selector="buttonCheckTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="VuS-9r-qRn"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solved most of my problems" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1h-xp-SfQ">
+                                        <rect key="frame" x="50" y="96" width="193" height="18"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="15"/>
+                                        <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KqX-0P-UFq">
+                                        <rect key="frame" x="15" y="94" width="20" height="22"/>
+                                        <state key="normal" image="uncheck_box"/>
+                                        <state key="selected" image="check_box"/>
+                                        <connections>
+                                            <action selector="buttonCheckTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="KoS-86-Dg9"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Knowledge of the products" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-hJ-XsO">
+                                        <rect key="frame" x="50" y="133" width="224" height="18"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="15"/>
+                                        <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDp-Ri-alk">
+                                        <rect key="frame" x="15" y="131" width="20" height="22"/>
+                                        <state key="normal" image="uncheck_box"/>
+                                        <state key="selected" image="check_box"/>
+                                        <connections>
+                                            <action selector="buttonCheckTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="k8e-V7-Br4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="uDp-Ri-alk" firstAttribute="leading" secondItem="KqX-0P-UFq" secondAttribute="leading" id="1yL-0s-cYg"/>
+                                    <constraint firstItem="5sm-5t-3DF" firstAttribute="top" secondItem="sbC-bB-CTa" secondAttribute="bottom" constant="15" id="5rZ-br-tzq"/>
+                                    <constraint firstItem="KqX-0P-UFq" firstAttribute="leading" secondItem="5sm-5t-3DF" secondAttribute="leading" id="CeR-OF-zwt"/>
+                                    <constraint firstItem="sbC-bB-CTa" firstAttribute="leading" secondItem="feb-hX-7cx" secondAttribute="leading" constant="15" id="Fbw-m9-Xyh"/>
+                                    <constraint firstItem="o1h-xp-SfQ" firstAttribute="centerY" secondItem="KqX-0P-UFq" secondAttribute="centerY" id="Fg1-kl-KpJ"/>
+                                    <constraint firstItem="D3g-hJ-XsO" firstAttribute="leading" secondItem="uDp-Ri-alk" secondAttribute="trailing" constant="15" id="VaX-lp-HFN"/>
+                                    <constraint firstAttribute="bottom" secondItem="uDp-Ri-alk" secondAttribute="bottom" constant="20" id="Xfz-RM-BWH"/>
+                                    <constraint firstItem="KqX-0P-UFq" firstAttribute="top" secondItem="5sm-5t-3DF" secondAttribute="bottom" constant="15" id="d1j-Ub-etb"/>
+                                    <constraint firstItem="eVh-y1-k43" firstAttribute="leading" secondItem="5sm-5t-3DF" secondAttribute="trailing" constant="15" id="dEe-Zt-5sk"/>
+                                    <constraint firstItem="sbC-bB-CTa" firstAttribute="top" secondItem="feb-hX-7cx" secondAttribute="top" constant="20" id="g8E-Nl-nPh"/>
+                                    <constraint firstItem="70T-1E-MlF" firstAttribute="centerY" secondItem="sbC-bB-CTa" secondAttribute="centerY" id="heC-ld-f0v"/>
+                                    <constraint firstItem="uDp-Ri-alk" firstAttribute="top" secondItem="KqX-0P-UFq" secondAttribute="bottom" constant="15" id="sbL-d6-A9M"/>
+                                    <constraint firstItem="eVh-y1-k43" firstAttribute="centerY" secondItem="5sm-5t-3DF" secondAttribute="centerY" id="vPv-CV-Lq6"/>
+                                    <constraint firstItem="70T-1E-MlF" firstAttribute="leading" secondItem="sbC-bB-CTa" secondAttribute="trailing" constant="15" id="vu4-Oc-gyH"/>
+                                    <constraint firstItem="5sm-5t-3DF" firstAttribute="leading" secondItem="sbC-bB-CTa" secondAttribute="leading" id="xYS-SX-3wI"/>
+                                    <constraint firstItem="D3g-hJ-XsO" firstAttribute="centerY" secondItem="uDp-Ri-alk" secondAttribute="centerY" id="zTY-Ph-IHI"/>
+                                    <constraint firstItem="o1h-xp-SfQ" firstAttribute="leading" secondItem="KqX-0P-UFq" secondAttribute="trailing" constant="15" id="za6-dK-duh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qpp-cu-tIC" firstAttribute="top" secondItem="1tU-ax-SAV" secondAttribute="bottom" constant="15" id="2Ea-kE-CBG"/>
+                            <constraint firstItem="1tU-ax-SAV" firstAttribute="centerX" secondItem="M8X-LU-P7s" secondAttribute="centerX" id="5EI-MJ-Vz9"/>
+                            <constraint firstItem="1tU-ax-SAV" firstAttribute="top" secondItem="M8X-LU-P7s" secondAttribute="bottom" constant="20" id="8S5-By-UJ1"/>
+                            <constraint firstItem="M8X-LU-P7s" firstAttribute="top" secondItem="tjC-qi-Dsu" secondAttribute="top" constant="15" id="8eF-l3-4Qw"/>
+                            <constraint firstItem="feb-hX-7cx" firstAttribute="top" secondItem="qpp-cu-tIC" secondAttribute="bottom" constant="15" id="8lp-51-Nce"/>
+                            <constraint firstItem="feb-hX-7cx" firstAttribute="leading" secondItem="tjC-qi-Dsu" secondAttribute="leading" constant="15" id="LRn-Zb-zrr"/>
+                            <constraint firstItem="M8X-LU-P7s" firstAttribute="centerX" secondItem="tjC-qi-Dsu" secondAttribute="centerX" id="Md2-vi-RnF"/>
+                            <constraint firstItem="qpp-cu-tIC" firstAttribute="centerX" secondItem="1tU-ax-SAV" secondAttribute="centerX" id="eUP-XI-C8D"/>
+                            <constraint firstAttribute="trailing" secondItem="feb-hX-7cx" secondAttribute="trailing" constant="15" id="f9U-2o-uo7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="tjC-qi-Dsu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Fk2-iO-p43"/>
+                <constraint firstAttribute="bottom" secondItem="tjC-qi-Dsu" secondAttribute="bottom" id="VLb-1a-vfp"/>
+                <constraint firstAttribute="trailing" secondItem="tjC-qi-Dsu" secondAttribute="trailing" id="YKv-UE-bgp"/>
+                <constraint firstItem="tjC-qi-Dsu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fu7-g6-666"/>
+            </constraints>
+            <size key="customSize" width="332" height="483"/>
+            <connections>
+                <outletCollection property="buttonsCheckBox" destination="sbC-bB-CTa" collectionClass="NSMutableArray" id="hQd-cB-Wdw"/>
+                <outletCollection property="buttonsCheckBox" destination="5sm-5t-3DF" collectionClass="NSMutableArray" id="92n-tO-gEX"/>
+                <outletCollection property="buttonsCheckBox" destination="KqX-0P-UFq" collectionClass="NSMutableArray" id="D7O-2z-NWe"/>
+                <outletCollection property="buttonsCheckBox" destination="uDp-Ri-alk" collectionClass="NSMutableArray" id="hzE-wX-uoH"/>
+            </connections>
+            <point key="canvasLocation" x="42.028985507246382" y="240.73660714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="check_box" width="20" height="20"/>
+        <image name="ok_big" width="74.5" height="74.5"/>
+        <image name="uncheck_box" width="20" height="20"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

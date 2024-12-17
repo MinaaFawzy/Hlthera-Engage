@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>122638656636-9mdtl36v1nca4ojhg88drdmngssbvt4c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.122638656636-9mdtl36v1nca4ojhg88drdmngssbvt4c</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>122638656636-91e3ebu2jhhdr86kbv9t8eg1vadde421.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCF8UCwoe9URxI1Z8X0C9xLCD8kd-DveeY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>122638656636</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Fluper.HltheraApp</string>
+	<key>PROJECT_ID</key>
+	<string>hltera</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hltera.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:122638656636:ios:b2776f6b7d03eddac1d5f9</string>
+	<key>DATABASE_URL</key>
+	<string>https://hltera.firebaseio.com</string>
+</dict>
+</plist>

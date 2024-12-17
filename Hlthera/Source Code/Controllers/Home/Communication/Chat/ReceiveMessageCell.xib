@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="106" id="htF-2w-rcM" customClass="ReceiveMessageCell" customModule="Hlthera" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="399" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="htF-2w-rcM" id="lnT-70-0tg">
+                <rect key="frame" x="0.0" y="0.0" width="399" height="106"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UJd-5D-geg">
+                        <rect key="frame" x="15" y="15" width="251" height="76"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yea...we need to discuss about it in person!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQt-Ki-r4J">
+                                <rect key="frame" x="15" y="15" width="221" height="46"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.11764705882352941" green="0.24705882352941178" blue="0.42352941176470588" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hQt-Ki-r4J" firstAttribute="top" secondItem="UJd-5D-geg" secondAttribute="top" constant="15" id="Ja8-a6-v6u"/>
+                            <constraint firstItem="hQt-Ki-r4J" firstAttribute="leading" secondItem="UJd-5D-geg" secondAttribute="leading" constant="15" id="u08-N2-p1r"/>
+                            <constraint firstAttribute="trailing" secondItem="hQt-Ki-r4J" secondAttribute="trailing" constant="15" id="uKD-Tf-yZi"/>
+                            <constraint firstAttribute="bottom" secondItem="hQt-Ki-r4J" secondAttribute="bottom" constant="15" id="xKq-da-kqO"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius1">
+                                <real key="value" value="7"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:54 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygh-20-7nj">
+                        <rect key="frame" x="331.5" y="46" width="52.5" height="14.5"/>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="12"/>
+                        <color key="textColor" red="0.19607843137254902" green="0.27843137254901962" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="UJd-5D-geg" secondAttribute="bottom" constant="15" id="Eb3-bi-rPZ"/>
+                    <constraint firstItem="UJd-5D-geg" firstAttribute="leading" secondItem="lnT-70-0tg" secondAttribute="leading" constant="15" id="Ouw-rQ-8WD"/>
+                    <constraint firstAttribute="trailing" secondItem="Ygh-20-7nj" secondAttribute="trailing" constant="15" id="WQ1-bq-n8l"/>
+                    <constraint firstItem="UJd-5D-geg" firstAttribute="top" secondItem="lnT-70-0tg" secondAttribute="top" constant="15" id="fVv-Y1-vQ7"/>
+                    <constraint firstItem="Ygh-20-7nj" firstAttribute="centerY" secondItem="UJd-5D-geg" secondAttribute="centerY" id="jpb-0V-cMo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="gn8-PF-x9e"/>
+            <connections>
+                <outlet property="receiveMsgLbl" destination="hQt-Ki-r4J" id="XeU-Ls-JcG"/>
+                <outlet property="timeLbl" destination="Ygh-20-7nj" id="0Sm-XW-JfC"/>
+                <outlet property="viewBackground" destination="UJd-5D-geg" id="VCp-y4-UfD"/>
+            </connections>
+            <point key="canvasLocation" x="192" y="95"/>
+        </tableViewCell>
+    </objects>
+</document>

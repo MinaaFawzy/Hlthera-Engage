@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PharmacyProductCVC" customModule="Hlthera" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="191" height="349"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="191" height="349"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lks-EW-7uM">
+                        <rect key="frame" x="0.0" y="0.0" width="191" height="349"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLO-if-9wk">
+                                <rect key="frame" x="5" y="5" width="181" height="339"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder-1" translatesAutoresizingMaskIntoConstraints="NO" id="1sg-bk-DP5">
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="220.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4au-1a-z3r">
+                                        <rect key="frame" x="15" y="235.5" width="151" height="14.5"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="12"/>
+                                        <color key="textColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CL5-aL-thM">
+                                        <rect key="frame" x="143.5" y="15" width="22.5" height="22"/>
+                                        <state key="normal" image="heart_white"/>
+                                        <state key="selected" image="heart_active"/>
+                                        <connections>
+                                            <action selector="buttonHeartTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="aU3-6q-bo0"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lua-5d-juC">
+                                        <rect key="frame" x="15" y="251" width="151" height="13.5"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="11"/>
+                                        <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12345" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdu-oV-OHg">
+                                        <rect key="frame" x="15" y="274.5" width="44" height="14.5"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="12"/>
+                                        <color key="textColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity(10+)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVd-Eq-Toe">
+                                        <rect key="frame" x="75.5" y="275" width="65" height="13.5"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="11"/>
+                                        <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bI-An-LkK">
+                                        <rect key="frame" x="145.5" y="270.5" width="20.5" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20.5" id="CGZ-9o-UpI"/>
+                                            <constraint firstAttribute="height" constant="22" id="JXx-pt-Gww"/>
+                                        </constraints>
+                                        <state key="normal" image="cart_color"/>
+                                        <connections>
+                                            <action selector="buttonCartTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="KfN-R4-oo1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="lua-5d-juC" secondAttribute="trailing" constant="15" id="1qr-XC-Ufr"/>
+                                    <constraint firstItem="1sg-bk-DP5" firstAttribute="height" secondItem="hLO-if-9wk" secondAttribute="height" multiplier="0.65" id="2Mb-1n-O8g"/>
+                                    <constraint firstItem="lua-5d-juC" firstAttribute="leading" secondItem="4au-1a-z3r" secondAttribute="leading" id="2az-hO-9cT"/>
+                                    <constraint firstItem="fVd-Eq-Toe" firstAttribute="centerY" secondItem="Xdu-oV-OHg" secondAttribute="centerY" id="735-p3-THQ"/>
+                                    <constraint firstItem="1sg-bk-DP5" firstAttribute="top" secondItem="hLO-if-9wk" secondAttribute="top" id="BIa-Jl-kfQ"/>
+                                    <constraint firstItem="1bI-An-LkK" firstAttribute="centerY" secondItem="fVd-Eq-Toe" secondAttribute="centerY" id="HoI-J6-W0w"/>
+                                    <constraint firstItem="4au-1a-z3r" firstAttribute="leading" secondItem="hLO-if-9wk" secondAttribute="leading" constant="15" id="KqQ-hs-LRU"/>
+                                    <constraint firstItem="CL5-aL-thM" firstAttribute="top" secondItem="hLO-if-9wk" secondAttribute="top" constant="15" id="R64-9K-w2p"/>
+                                    <constraint firstAttribute="trailing" secondItem="1sg-bk-DP5" secondAttribute="trailing" id="Sf0-Lt-cOZ"/>
+                                    <constraint firstItem="Xdu-oV-OHg" firstAttribute="top" secondItem="lua-5d-juC" secondAttribute="bottom" constant="10" id="Sji-Wg-A9j"/>
+                                    <constraint firstAttribute="trailing" secondItem="CL5-aL-thM" secondAttribute="trailing" constant="15" id="VlE-DL-kzV"/>
+                                    <constraint firstAttribute="trailing" secondItem="1bI-An-LkK" secondAttribute="trailing" constant="15" id="Z3j-o1-1M4"/>
+                                    <constraint firstItem="Xdu-oV-OHg" firstAttribute="leading" secondItem="lua-5d-juC" secondAttribute="leading" id="a30-ni-Olb"/>
+                                    <constraint firstItem="1bI-An-LkK" firstAttribute="leading" secondItem="fVd-Eq-Toe" secondAttribute="trailing" constant="5" id="bS1-bR-aJ7"/>
+                                    <constraint firstAttribute="trailing" secondItem="4au-1a-z3r" secondAttribute="trailing" constant="15" id="bkT-XI-f0y"/>
+                                    <constraint firstItem="1sg-bk-DP5" firstAttribute="leading" secondItem="hLO-if-9wk" secondAttribute="leading" id="pCS-cO-Mbz"/>
+                                    <constraint firstItem="4au-1a-z3r" firstAttribute="top" secondItem="1sg-bk-DP5" secondAttribute="bottom" constant="15" id="yf8-P6-Fnw"/>
+                                    <constraint firstItem="lua-5d-juC" firstAttribute="top" secondItem="4au-1a-z3r" secondAttribute="bottom" constant="1" id="zgC-UV-oyj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.45000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="2.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hLO-if-9wk" firstAttribute="top" secondItem="lks-EW-7uM" secondAttribute="top" constant="5" id="4gM-D0-UMk"/>
+                            <constraint firstAttribute="trailing" secondItem="hLO-if-9wk" secondAttribute="trailing" constant="5" id="STh-fa-2Zy"/>
+                            <constraint firstItem="hLO-if-9wk" firstAttribute="leading" secondItem="lks-EW-7uM" secondAttribute="leading" constant="5" id="ouu-LY-9Ze"/>
+                            <constraint firstAttribute="bottom" secondItem="hLO-if-9wk" secondAttribute="bottom" constant="5" id="pzP-Gi-g0N"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lks-EW-7uM" secondAttribute="trailing" id="4Gb-6E-jXi"/>
+                <constraint firstItem="lks-EW-7uM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ao7-Tq-wPU"/>
+                <constraint firstAttribute="bottom" secondItem="lks-EW-7uM" secondAttribute="bottom" id="LWI-fA-3ni"/>
+                <constraint firstItem="lks-EW-7uM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pqE-Fh-eZA"/>
+            </constraints>
+            <size key="customSize" width="191" height="349"/>
+            <connections>
+                <outlet property="buttonHeart" destination="CL5-aL-thM" id="Zbz-Y0-gLp"/>
+                <outlet property="imageProduct" destination="1sg-bk-DP5" id="tFD-it-W9d"/>
+                <outlet property="labelPrice" destination="Xdu-oV-OHg" id="PwK-vQ-pu3"/>
+                <outlet property="labelProductName" destination="4au-1a-z3r" id="fBW-0q-ll0"/>
+                <outlet property="labelProductSubtitle" destination="lua-5d-juC" id="Zqi-kZ-QAD"/>
+                <outlet property="labelQty" destination="fVd-Eq-Toe" id="ire-w8-R4i"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="268"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cart_color" width="20.5" height="20.5"/>
+        <image name="heart_active" width="22" height="19"/>
+        <image name="heart_white" width="22.5" height="19.5"/>
+        <image name="placeholder-1" width="167" height="131"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

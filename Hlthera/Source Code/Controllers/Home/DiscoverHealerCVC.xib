@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DiscoverHealerCVC" customModule="Hlthera" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hfv-pE-3nH">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="120"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMP-Jc-YOs">
+                                <rect key="frame" x="0.5" y="88" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="12"/>
+                                <color key="textColor" red="0.51764705879999995" green="0.58039215690000001" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nearby_healers" translatesAutoresizingMaskIntoConstraints="NO" id="AMc-zN-igV">
+                                <rect key="frame" x="80" y="20" width="40" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="V3b-yU-bTo"/>
+                                    <constraint firstAttribute="width" constant="40" id="yga-ZL-FCu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nearby Healers" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SID-rc-VO9">
+                                <rect key="frame" x="53.333333333333336" y="75" width="93.333333333333314" height="17"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                <color key="textColor" red="0.1176470588" green="0.2470588235" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AMc-zN-igV" firstAttribute="top" secondItem="Hfv-pE-3nH" secondAttribute="top" constant="20" id="3Rh-aN-OZe"/>
+                            <constraint firstItem="SID-rc-VO9" firstAttribute="top" secondItem="AMc-zN-igV" secondAttribute="bottom" constant="5" id="72R-bG-XJa"/>
+                            <constraint firstItem="SID-rc-VO9" firstAttribute="centerX" secondItem="AMc-zN-igV" secondAttribute="centerX" id="GcG-BE-FCc"/>
+                            <constraint firstItem="AMc-zN-igV" firstAttribute="centerX" secondItem="Hfv-pE-3nH" secondAttribute="centerX" id="ybd-wV-H1x"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Hfv-pE-3nH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2X2-oh-SEJ"/>
+                <constraint firstAttribute="bottom" secondItem="Hfv-pE-3nH" secondAttribute="bottom" id="9yo-S1-mSw"/>
+                <constraint firstAttribute="trailing" secondItem="Hfv-pE-3nH" secondAttribute="trailing" id="Ok9-Ts-fZr"/>
+                <constraint firstItem="Hfv-pE-3nH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="k9V-0f-eVe"/>
+            </constraints>
+            <size key="customSize" width="178" height="150"/>
+            <connections>
+                <outlet property="discoverImage" destination="AMc-zN-igV" id="n9x-DU-A52"/>
+                <outlet property="discoverLable" destination="SID-rc-VO9" id="8ff-fP-aSc"/>
+            </connections>
+            <point key="canvasLocation" x="99.236641221374043" y="54.929577464788736"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="nearby_healers" width="57.5" height="60"/>
+    </resources>
+</document>
