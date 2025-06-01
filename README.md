@@ -17,15 +17,8 @@ The app is developed using **Swift** and **UIKit**, following the **MVC (Model-V
 
 ### 📸 Screenshots
 
-<img src="Hlthera-Engage-Images/welcomePage1.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/welcomePage2.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/welcomePage3.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/signinScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/siginUpScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/profileScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/notificationScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/myBookingScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/settingScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/filterScreen1.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/filterScreen2.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
-<img src="Hlthera-Engage-Images/searchScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
+<img src="Hlthera-Engage-Images/welcomePage1.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/><img src="Hlthera-Engage-Images/welcomePage2.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/><img src="Hlthera-Engage-Images/welcomePage3.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
+
+<img src="Hlthera-Engage-Images/signinScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/><img src="Hlthera-Engage-Images/siginUpScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/><img src="Hlthera-Engage-Images/profileScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
+<img src="Hlthera-Engage-Images/notificationScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/><img src="Hlthera-Engage-Images/myBookingScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/><img src="Hlthera-Engage-Images/settingScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
+<img src="Hlthera-Engage-Images/filterScreen1.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/><img src="Hlthera-Engage-Images/filterScreen2.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/><img src="Hlthera-Engage-Images/searchScreen.png" alt="Welcome" width="260" height="600" style="border: 2px solid black;"/>
